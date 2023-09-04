@@ -13,15 +13,15 @@
                 <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence4_bgerbl.jpg" alt=""></div>
             </div>
             <div class="w-full h-auto grid grid-flow-row gap-5 grid-cols-5">
-                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence5_fuwirn.jpg" alt=""></div>
-                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389809/team/presence6_uyt5dv.jpg" alt=""></div>
-                <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence7_xyauhh.jpg" alt=""></div>
-                <!-- <div class="w-full overflow-hidden"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389809/team/presence8_yjdreg.jpg" alt=""></div> -->
+                <div class="w-full h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence5_fuwirn.jpg" alt=""></div>
+                <div class="w-full h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389809/team/presence6_uyt5dv.jpg" alt=""></div>
+                <div class="w-full col-span-2 h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence7_xyauhh.jpg" alt=""></div>
+                <div class="w-full h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389809/team/presence8_yjdreg.jpg" alt=""></div>
             </div>
             <div class="w-full h-auto grid grid-flow-row gap-5 grid-cols-5">
                 <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence9_wucxrh.jpg" alt=""></div>
                 <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence10_z6cz6x.jpg" alt=""></div>
-                <!-- <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence10_z6cz6x.jpg" alt=""></div> -->
+                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence10_z6cz6x.jpg" alt=""></div>
             </div>
         </div>
     </div>

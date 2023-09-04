@@ -1,7 +1,7 @@
 <template>
   <div class="h-auto z-40 flex w-full flex-row items-center justify-between md:justify-center bg-neutral-800/80 py-4 text-neutral-300 backdrop-blur-md">
     <div class="w-1/2 md:w-2/3 h-full pl-6 md:pl-12">
-      <div class=" flex items-center"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></div>
+      <a href="/" class=" flex items-center"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a>
     </div>
     <!-- for desktop -->
     <div class="w-1/3 hidden md:block pr-16">
@@ -10,25 +10,27 @@
           <span v-for="(item, index) in menuitems" :key="index" class="w-full flex items-center flex-row space-x-4 justify-end">
             <a :href="item.path" class="cursor-pointer hover:text-white relative">
               <p>{{item.name}}</p>
-              <div v-if="route.hash == item.path && route.hash!=null" class="absolute -bottom-1 flex w-full justify-center">
+              <div v-if="route.path+route.hash == item.path && '/'+route.hash == item.path && route.path+route.hash!='/'" class="absolute -bottom-1 flex w-full justify-center">
                 <p class="h-1 w-2 rounded-full bg-sky-400"></p>
               </div>
-              <div v-else-if="route.name == 'index' && item.path == '/' && route.hash==''" class="absolute -bottom-1 flex w-full justify-center">
+              <div v-else-if="route.name == 'index' && item.path == route.path && route.path+route.hash==item.path && '/'+route.hash == '/'" class="absolute -bottom-1 flex w-full justify-center">
                 <p class="h-1 w-2 rounded-full bg-sky-400"></p>
               </div>
-              <div v-else class=""></div>
+              <div v-else class="absolute -bottom-1 flex w-full justify-center"></div>
             </a>
           </span>
         </div>
         <div class="h-4 w-0.5 rounded-full bg-sky-400"></div>
         <div class="w-20 bg- flex flex-col text-zinc-500">
-          <a href="/insights" class="cursor-pointer hover:text-white relative">
+          <span v-for="(item, index) in insightful" :key="index" class="w-full flex items-center flex-row space-x-4 justify-end">
+            <a href="/insights" class="cursor-pointer hover:text-white relative">
               <p>Insights</p>
-              <div v-if="route.name == 'insights'" class="absolute -bottom-1 flex w-full justify-center">
+              <div v-if="route.name =='insights' && item.path == route.path && route.path+route.hash==item.path" class="absolute -bottom-1 flex w-full justify-center">
                 <p class="h-1 w-2 rounded-full bg-sky-400"></p>
               </div>
               <div v-else class=""></div>
             </a>
+          </span>
         </div>
       </div>
     </div>
@@ -63,19 +65,25 @@ const menuitems : {
     },
     {
       id: 5,
-      path: `/#clients`,
-      name: `Clients`,
+      path: `/#portfolio`,
+      name: `Portfolio`,
     },
     {
       id: 1,
       path: `/#team`,
       name: `Team`
     },
-    // {
-    //   id: 1,
-    //   path: `/`,
-    //   name: `Insights`
-    // },
+  ]
+const insightful : {
+    id: number;
+    path: string; 
+    name: string; 
+  }[]=[
+    {
+      id: 1,
+      path: `/insights`,
+      name: `Insights`
+    },
   ]
 </script>
 

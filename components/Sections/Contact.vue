@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="flex flex-col space-y-2">
                                     <label for="msg">Please provide the project summary in 2 to 3 sentences.</label>
-                                    <input v-model="data.message" type="text" id="msg" class="w-full h-52 bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message or Note to Team NewTribe" required />
+                                    <input v-model="data.message" type="text" id="msg" class="w-full h-32 md:h-52 bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message or Note to Team NewTribe" required />
                                 </div>
                                 <div class="flex flex-col space-y-2">
                                     <div class="flex flex-row space-x-2 items-center">

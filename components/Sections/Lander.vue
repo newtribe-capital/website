@@ -5,7 +5,7 @@
             <div class="mb-[50px] md:mb-9 w-1/2"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div>
             <div><p class="text-2xl md:text-5xl">NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital fund</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
         </div>
-        <div  class="relative z-20 flex flex-col w-full md:w-4/5 h-auto my-10 py-8 bg-zinc-900/70 backdrop-blur-sm">
+        <div  class="relative z-20 flex flex-col w-full md:w-4/5 h-auto my-10 py-24 bg-zinc-900/70 backdrop-blur-sm">
             <div class="px-24 mb-2 text-sm md:text-lg"><p>Trusted by over a 100+ Projects </p></div>
             <div class="absolute w-full -300 -z-10 -top-20 h-[700px] overflow-hidden"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/Vector_3_Stroke_rangay_bae_rangy_wb3jgz.svg" alt="" class="w-full"></div>
             <div class="absolute hidden md:block left-0 h-3/4 bottom-8 blur-md z-40 w-24 bg-zinc-900/90"></div>
@@ -19,7 +19,7 @@
                     delay: 500,
                     disableOnInteraction: false
                   }" class="w-full h- mb-4">
-                  <SwiperSlide v-for="(item, index) in cards" :key="index" class="h-52 bg- pb-1 shadow-b-md">
+                  <SwiperSlide v-for="(item, index) in cards" :key="index" class="h-40 bg- pb-1 shadow-b-md">
                     <div class="flex w-56 bg-zinc-700 h-full justify-center items-center">
                       <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
                         <img :src="item.link" alt="" class="h-full">
@@ -89,7 +89,7 @@
                         <div ><p class="text-3xl md:text-6xl mb-10">About us</p></div>
                         <div><p class="mb-6">NewTribe Capital is a venture firm specializing in early-stage Web3 investments that aims to support the next generation of permissionless, trustless, and decentralized technology.</p></div>
                         <div><p class="mb-6">NewTribe Capital’s support extends beyond the capital, offering portfolio companies access to an extensive network of industry connections and resources, fostering their growth and development.</p></div>
-                        <div><p class="mb-6">Driven by the 'Investing in People” philosophy, we bet on the visionary founders that thrive to add value to the WEB3 ecosystem. We unite the 'new tribe' of innovators and demonstrate a comprehensive understanding of the crypto space, spanning tokenomics, macroeconomics, go-to-market strategies, and legal compliance.</p></div>
+                        <div><p class="mb-6">Our vision  Driven by the 'Investing in People” philosophy, we bet on the visionary founders that thrive to add value to the WEB3 ecosystem. We unite the 'new tribe' of innovators and demonstrate a comprehensive understanding of the crypto space, spanning tokenomics, macroeconomics, go-to-market strategies, and legal compliance.</p></div>
                         <div><p class="mb-6">New Tribe Capital specializes in identifying opportunities across Asia, Europe, and MENA, focusing on fostering the Web3 ecosystem's growth in the Middle East without geographical limitations.</p></div>
                     </div>
                     <div  class="w-full md:w-1/2 pt-16">
