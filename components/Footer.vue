@@ -48,7 +48,7 @@
     <div class="flex h-auto w-full flex-col space-y-4 md:space-y-0 md:flex-row items-center justify-between bg-zinc-800 py-8 md:py-4 text-zinc-400">
       <div class="w-1/2 pl-0 md:pl-12"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></div>
       <div class="flex h-full w-full md:w-1/2 items-center flex-col space-y-4 md:space-y-0 md:flex-row justify-end space-x-4 pr-0 md:pr-16">
-        <div class="h-0.5 w-full rounded-full bg-sky-400 block md:hidden"></div>
+        <div class="h-[1px] w-full rounded-full bg-sky-400 block md:hidden"></div>
         <div class="flex h-full w-2/3 md:w-full flex-col items-center text-center md:items-end">
           <p>Singapore | 20A, Tanjong Pagar Road, Singapore (088443)</p>
           <p>Copyright © 2022 Newtribe Capital – All Rights Reserved.</p>

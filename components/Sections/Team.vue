@@ -2,7 +2,7 @@
     <div id="team" class="h-auto w-full px-6 md:px-20 text-sm md:text-lg text-zinc-400">
       <a name="team" class="w-full h-full">
         <div class="w-full md:w-4/5 flex flex-col">
-            <div><p class="text-3xl md:text-6xl">The Team</p></div>
+            <div><p class="text-3xl font-extralight md:text-6xl">The Team</p></div>
             <div><p class="w-full text-justify md:w-2/3 mt-5 md:mt-10">The team's strength lies in the collective international expertise, as well as the diverse and complementary skills of our fund partners, who have up to a decade of investment experience.</p></div>
             <div class="grid w-full grid-flow-row grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 mt-5 md:mt-10">
               <span v-for="(i, index) in team" :key="index">

@@ -1,92 +1,101 @@
 <template>
     <div class="relative h-auto w-full text-zinc-400 flex flex-col">
-        <div class="absolute top-16 left-8 md:left-24 h-64 md:h-96 -z-10 "><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/blackball_qecfav.svg" alt="" class="h-full w-full"></div>
+        <div class="absolute bg-gradient-to-br from-zinc-800 blur-sm to-black rounded-full shadow-[30px_35px_30px_-2px_rgba(0,0,0,0.3)] shadow-black top-8 md:top-20 left-6 md:left-16 w-56 md:w-72 h-56 md:h-72 -z-10 "></div>
+        <!-- <div class="absolute top-16 left-8 md:left-24 h-64 md:h-96 -z-10 "><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/blackball_qecfav.svg" alt="" class="h-full w-full"></div> -->
         <div class=" flex flex-col w-full h-full my-24 md:my-40 px-6 md:px-20 bg-">
+            <!-- <div class="-z-40"><particles /></div> -->
             <div class="mb-[50px] md:mb-9 w-1/2"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div>
             <div><p class="text-2xl md:text-5xl">NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital fund</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
         </div>
-        <div  class="relative z-20 flex flex-col w-full md:w-4/5 h-auto my-10 py-24 bg-zinc-900/70 backdrop-blur-sm">
-            <div class="px-24 mb-2 text-sm md:text-lg"><p>Trusted by over a 100+ Projects </p></div>
-            <div class="absolute w-full -300 -z-10 -top-20 h-[700px] overflow-hidden"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/Vector_3_Stroke_rangay_bae_rangy_wb3jgz.svg" alt="" class="w-full"></div>
-            <div class="absolute hidden md:block left-0 h-3/4 bottom-8 blur-md z-40 w-24 bg-zinc-900/90"></div>
-            <div class="absolute hidden md:block right-0 h-3/4 bottom-8 blur-md z-40 w-24 bg-zinc-900/90"></div>
-            <div class="w-full h-full hidden md:block">
-                <Swiper
-                  :modules="[SwiperAutoplay, SwiperEffectCards]"
-                  :loop="true"
-                  :slides-per-view="6"
-                  :autoplay="{
-                    delay: 500,
-                    disableOnInteraction: false
-                  }" class="w-full h- mb-4">
-                  <SwiperSlide v-for="(item, index) in cards" :key="index" class="h-40 bg- pb-1 shadow-b-md">
-                    <div class="flex w-56 bg-zinc-700 h-full justify-center items-center">
-                      <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
-                        <img :src="item.link" alt="" class="h-full">
+        <!-- Trusted Projects -->
+        <div class="relative flex flex-col w-full md:w-4/5 h-auto my-10 bg-zinc-900/70 backdrop-blur-sm">
+          <div  class="z-10 flex flex-col w-full h-auto bg-zinc-900/70 backdrop-blur-sm py-8 md:py-24">
+            <div style="z-index: -999;" class="absolute bg-gradient-to-br hidden md:block blu from-sky-400 to-sky-950 rounded-full shadow-[20px_20px_20px_-4px_rgba(0,0,0,0.3)] shadow-sky-900/90 -top-24 left-0 md:left-16 w-56 h-56"></div>
+            <div class="absolute blur- z-30 bg-gradient-to-br hidden md:block from-emerald-400 to-emerald-950 rounded-full shadow-[30px_35px_30px_-6px_rgba(0,0,0,0.3)] shadow-emerald-950/90 -bottom-24 md:right-16 w-44 h-44"></div>
+              <div class="px-24 mb-8 text-sm md:text-lg"><p>Trusted by over a 100+ Projects </p></div>
+              <div class="absolute hidden md:block w-full -300 -z-10 -top-20 h-[] overflow-hidden"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/Vector_3_Stroke_rangay_bae_rangy_wb3jgz.svg" alt="" class="w-full"></div>
+              <div class="absolute hidden md:block left-0 h-3/4 bottom-8 blur-md z-40 w-24 bg-zinc-900/90"></div>
+              <div class="absolute hidden md:block right-0 h-3/4 bottom-8 blur-md z-10 w-24 bg-zinc-900/90"></div>
+              <div class="w-full h-full hidden md:block">
+                  <Swiper
+                    :modules="[SwiperAutoplay, SwiperEffectCards]"
+                    :loop="true"
+                    :slides-per-view="6"
+                    :autoplay="{
+                      delay: 500,
+                      disableOnInteraction: false
+                    }" class="w-full h-full bg- flex items-end mb-4">
+                    <SwiperSlide v-for="(item, index) in cards" :key="index" class="h-40 b flex items-end pb-1 shadow-b-md">
+                      <div class="flex w-56 bg-zinc-700 h-40 justify-center items-center">
+                        <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
+                          <img :src="item.link" alt="" class="h-full">
+                        </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-                <Swiper
-                  :modules="[SwiperAutoplay, SwiperEffectCards]"
-                  :slides-per-view="6"
-                  :loop="true"
-                  :autoplay="{
-                    delay: 1000,
-                    disableOnInteraction: false,
-                    reverseDirection: true,
-                  }" class="w-full h- flex bg--500">
-                  <SwiperSlide v-for="(item, index) in cards2" :key="index" class="h-52 bg- pb-1 shadow-b-md">
-                    <div class="flex w-56 bg-zinc-700 h-full justify-center items-center">
-                      <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
-                        <img :src="item.link" alt="" class="h-full">
+                    </SwiperSlide>
+                  </Swiper>
+                  <Swiper
+                    :modules="[SwiperAutoplay, SwiperEffectCards]"
+                    :slides-per-view="6"
+                    :loop="true"
+                    :autoplay="{
+                      delay: 1000,
+                      disableOnInteraction: false,
+                      reverseDirection: true,
+                    }" class="w-full h- flex">
+                    <SwiperSlide v-for="(item, index) in cards2" :key="index" class="h-52 bg- pb-1 shadow-b-md">
+                      <div class="flex w-56 bg-zinc-700 h-40 justify-center items-center">
+                        <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
+                          <img :src="item.link" alt="" class="h-full">
+                        </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-            </div>
-            <div class="w-full h-full block md:hidden">
-                <Swiper
-                  :modules="[SwiperAutoplay, SwiperEffectCards]"
-                  :slides-per-view="2"
-                  :loop="true"
-                  :autoplay="{
-                    delay: 500,
-                    // disableOnInteraction: true
-                  }" class="w-full h- mb-4">
-                  <SwiperSlide v-for="(item, index) in cards" :key="index" class="h-52 bg- pb-1 shadow-b-md">
-                    <div class="flex w-full h-full justify-center items-center">
-                      <div class="flex w-full flex-col h-full text-slate-600 md:px-0">
-                        <img :src="item.link" alt="" class="h-full">
+                    </SwiperSlide>
+                  </Swiper>
+              </div>
+              <div class="w-full h-full block md:hidden">
+                  <Swiper
+                    :modules="[SwiperAutoplay, SwiperEffectCards]"
+                    :slides-per-view="2"
+                    :loop="true"
+                    :autoplay="{
+                      delay: 500,
+                      // disableOnInteraction: true
+                    }" class="w-full h- mb-4">
+                    <SwiperSlide v-for="(item, index) in cards" :key="index" class="h- pb-1 shadow-b-md">
+                      <div class="flex w-full h-full justify-center items-center">
+                        <div class="flex w-full flex-col h-1/3 text-slate-600 md:px-0">
+                          <img :src="item.link" alt="" class="h-full">
+                        </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-                <Swiper
-                  :modules="[SwiperAutoplay, SwiperEffectCards]"
-                  :slides-per-view="2"
-                  :loop="true"
-                  :autoplay="{
-                    delay: 500,
-                    // disableOnInteraction: true,
-                    reverseDirection: true,
-                  }" class="w-full h- flex bg--500">
-                  <SwiperSlide v-for="(item, index) in cards2" :key="index" class="h-52 bg- pb-1 shadow-b-md">
-                    <div class="flex w-full h-full justify-center items-center">
-                      <div class="flex w-full flex-col h-full text-slate-600 md:px-0">
-                        <img :src="item.link" alt="" class="h-full">
+                    </SwiperSlide>
+                  </Swiper>
+                  <Swiper
+                    :modules="[SwiperAutoplay, SwiperEffectCards]"
+                    :slides-per-view="2"
+                    :loop="true"
+                    :autoplay="{
+                      delay: 500,
+                      // disableOnInteraction: true,
+                      reverseDirection: true,
+                    }" class="w-full h- flex">
+                    <SwiperSlide v-for="(item, index) in cards2" :key="index" class="h- bg- pb-1 shadow-b-md">
+                      <div class="flex w-full h-full justify-center items-center">
+                        <div class="flex w-full flex-col h-1/3 text-slate-600 md:px-0">
+                          <img :src="item.link" alt="" class="h-full">
+                        </div>
                       </div>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
-            </div>
+                    </SwiperSlide>
+                  </Swiper>
+              </div>
+          </div>
         </div>
-        <div id='about' class="py-28 text-sm md:text-lg flex flex-col md:flex-row w-full text-zinc-400">
+        <!-- About us -->
+        <div id='about' class="relative py-28 text-sm md:text-lg flex flex-col md:flex-row w-full text-zinc-400">
+          <div class="absolute hidden md:block h-64 w-24 right-3 top-3"><div><p class="mt-10 text-6xl font-bold text-zinc-700 transform rotate-90 bg-">#ABOUT</p></div></div>
             <!-- desktop -->
             <a name="about" class="w-full hidden md:block px-6 md:px-20">
                 <div class="flex flex-row w-full space-x-0 md:space-x-32">
                     <div class="w-1/2 h-auto flex flex-col text-justify text-lg">
-                        <div ><p class="text-3xl md:text-6xl mb-10">About us</p></div>
+                        <div ><p class="text-3xl font-extralight md:text-6xl mb-10">About us</p></div>
                         <div><p class="mb-6">NewTribe Capital is a venture firm specializing in early-stage Web3 investments that aims to support the next generation of permissionless, trustless, and decentralized technology.</p></div>
                         <div><p class="mb-6">NewTribe Capital’s support extends beyond the capital, offering portfolio companies access to an extensive network of industry connections and resources, fostering their growth and development.</p></div>
                         <div><p class="mb-6">Our vision  Driven by the 'Investing in People” philosophy, we bet on the visionary founders that thrive to add value to the WEB3 ecosystem. We unite the 'new tribe' of innovators and demonstrate a comprehensive understanding of the crypto space, spanning tokenomics, macroeconomics, go-to-market strategies, and legal compliance.</p></div>
@@ -94,24 +103,39 @@
                     </div>
                     <div  class="w-full md:w-1/2 pt-16">
                         <div class="w-full md:w-1/2 h-full flex flex-col space-y-5">
-                            <div class="bg-zinc-800 h-full w-full flex flex-row px-9 items-center space-x-10">
-                                <div class="w-20">
-                                    <img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693204772/icons/endtoend_ghe4pr.svg" alt="">
-                                </div>
-                                <div>End-to-End <br>Support</div>
+                          <div class="bg-zinc-800 h-full w-full c--anim-btn px-8">
+                            <div class="w-full h-full flex flex-row items-center space-x-10 c-anim-btn">
+                              <div class="w-20">
+                                  <img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693204772/icons/Uae_base_kukfvk.svg" alt="">
+                              </div>
+                              <div>UAE <br>Base</div>
                             </div>
-                            <div class="bg-zinc-800 h-full w-full flex flex-row px-9 items-center space-x-10">
-                                <div class="w-20">
-                                    <img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693204772/icons/techincal_ozr1vy.svg" alt="">
-                                </div>
-                                <div>Technical <br>Expertise</div>
+                            <div class="w-full h-full text-sm flex justify-center items-center">
+                              <span2><p>With over three years as a leading force in the UAE's ecosystem, we offer in-depth market insights and specialized support to help you establish a strong local presence.</p></span2>
                             </div>
-                            <div class="bg-zinc-800 h-full w-full flex flex-row px-9 items-center space-x-10">
-                                <div class="w-20">
-                                    <img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693204772/icons/Uae_base_kukfvk.svg" alt="">
-                                </div>
-                                <div>UAE <br>Base</div>
+                          </div>
+                          <div class="bg-zinc-800 h-full w-full c--anim-btn px-9">
+                            <div class="w-full h-full flex flex-row items-center space-x-10 c-anim-btn">
+                              <div class="w-20">
+                                  <img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693204772/icons/techincal_ozr1vy.svg" alt="">
+                              </div>
+                              <div>Technical <br>Expertise</div>
                             </div>
+                            <div class="w-full h-full text-sm flex justify-center items-center">
+                              <span2><p>Recognising the critical role of branding, we deliver comprehensive go-to-market strategies equipped with all the necessary resources, whether you're looking to launch in the UAE or expand globally.</p></span2>
+                            </div>
+                          </div>
+                          <div class="bg-zinc-800 h-full w-full c--anim-btn px-9">
+                            <div class="w-full h-full flex flex-row items-center space-x-10 c-anim-btn">
+                              <div class="w-20">
+                                  <img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693204772/icons/endtoend_ghe4pr.svg" alt="">
+                              </div>
+                              <div>End-to-End <br>Support</div>
+                            </div>
+                            <div class="w-full h-full text-sm flex justify-center items-center">
+                              <span2><p>We thrive in partnerships with hands-on builders and developers, adeptly addressing any gaps or challenges they may face with our exceptional technical support</p></span2>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -120,7 +144,7 @@
             <div class="w-full block md:hidden">
                 <a name="about" class="flex flex-col w-full relative overflow-hidden px-6 md:px-20">
                     <div class="flex justify-end items-end -z-10 absolute -right-32 h-[330px] w-full"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/greenball_tdc2cz.svg" alt="" class="w-1/2"></div>
-                    <div><p class="text-3xl mb-5">About us</p></div>
+                    <div><p class="text-3xl font-extralight mb-5">About us</p></div>
                     <div class="my-2 w-full p-2 flex flex-row space-x-4 bg-zinc-800/80 backdrop-blur-sm items-center">
                         <div><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693213697/icons/uaemobile_aoftg4.svg" alt=""></div>
                         <div><p>UAE Base</p></div>
@@ -148,19 +172,19 @@ const cards : {
     link: string;
   }[]=[
     {
-      id: 0,
+      id: 1,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/Secondlive_mutigi.svg`,
     },
     {
-      id: 1,
+      id: 2,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/archway_axkfsm.svg`,
     },
     {
-      id: 2,
+      id: 3,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572083/projects/intution_jja7lg.svg`,
     },
     {
-      id: 3,
+      id: 4,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572082/projects/him_rpdxot.svg`,
     },
     // {
@@ -168,19 +192,19 @@ const cards : {
     //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693568370/projects/sinverse_i9cbwu.png`,
     // },
     {
-      id: 4,
+      id: 5,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572082/projects/sinverse_mrw6kf.svg`,
     },
     {
-      id: 5,
+      id: 6,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572073/projects/suipad_l2gepf.svg`,
     },
     {
-      id: 6,
+      id: 7,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572073/projects/enginesoffury_jft24g.svg`,
     },
     {
-      id: 7,
+      id: 8,
       link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572074/projects/gr_fbsfu9.svg`,
     }
 ]
@@ -227,6 +251,31 @@ const cards2 : {
 ]
 </script>
 <style>
+.c--anim-btn span2 {
+text-decoration: none;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20px;
+cursor: pointer;
+}
+
+.c--anim-btn, .c-anim-btn {
+transition: 0.3s;   
+}
+
+.c--anim-btn {
+overflow: hidden;
+}
+
+.c-anim-btn{
+margin-top: 0em; 
+}
+
+.c--anim-btn:hover .c-anim-btn{
+margin-top: -6.5em;
+}
 .swiper {
     margin-left: auto;
     margin-right: auto;

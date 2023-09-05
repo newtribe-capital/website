@@ -1,6 +1,42 @@
 <template>
-    <div class="h-screen w-full flex flex-col fixed text-white bg-zinc-950">
-        <div class="fixed w-full"><Navbar/></div>
+    <div class="h-screen w-full flex flex-col font-primary fixed text-white bg-zinc-950">
+        <div class="fixed w-full" style="z-index: 999;">
+          <div class="hidden md:block"><Navbar/></div>
+          <!-- start of mobile nav -->
+          <div class="w-full block md:hidden h-auto z-40 flex px-8 flex-row items-center justify-between bg-neutral-800/80 py-4 text-neutral-300 backdrop-blur-md">
+            <div class="w-1/2 h-full flex items-center">
+              <a href="/" class=" flex items-center"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a>
+            </div>
+            <div class="w-1/2 h-full flex justify-end">
+              <svg @click="hamborgir" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-sky-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+            </div>
+          </div>
+          <!-- end of it -->
+          <NewModal v-show="showModal" @close-newmodal="showModal = false">
+            <template v-slot:body>
+              <div class="flex h-full w-full justify-center items-center text-zinc-400 overflow-hidden bg-zinc-700  example">
+                <div class="flex justify-center items-center w-1/2 h-auto">
+                  <div class="flex flex-col w-full justify-end space-y-3 items-center text-xl">
+                    <span v-for="(item, index) in menuitems" :key="index" class="">
+                      <a :href="item.path" class="cursor-pointer hover:text-white relative">
+                        <p>{{item.name}}</p>
+                        <div v-if="route.path+route.hash == item.path && '/'+route.hash == item.path && route.path+route.hash!='/'" class="absolute -bottom-1 flex w-full justify-center">
+                          <p class="h-1 w-2 rounded-full bg-sky-400"></p>
+                        </div>
+                        <div v-else-if="route.name == 'index' && item.path == route.path && route.path+route.hash==item.path && '/'+route.hash == '/'" class="absolute -bottom-1 flex w-full justify-center">
+                          <p class="h-1 w-2 rounded-full bg-sky-400"></p>
+                        </div>
+                        <div v-else class="absolute -bottom-1 flex w-full justify-center"></div>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </NewModal>
+        </div>
         <div id="scrollbar" class="w-full mt-16 h-full flex flex-col overflow-auto justify-">
             <div class="w-full relative">
              
@@ -8,7 +44,7 @@
                     <slot />
                     
                 </div>
-              <div style="z-index: 9999;" class="hidden md:block h-36 w-20 fixed bottom-20 right-28">
+              <div style="z-index: 9999;" class="hidden md:block h-36 w-20 fixed bottom-20 right-24">
                 <div v-if="scrollPx > 300" class="bg-zinc-700/30 backdrop-blur-md rounded-md px-3 w-3/4 h-full flex flex-col items-center py-3 justify-between">
                     <div @click="scrollToTop" id="myBtn">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cursor-pointer w-6 h-6 text-emerald-500 hover:text-emerald-700">
@@ -34,7 +70,14 @@
 </template>
 <script lang="ts" setup>
 import Vue from 'vue'
+const showModal= ref(false)
+function hamborgir(){
+  showModal.value=true
+  console.log(showModal.value, "kitthe")
+}
+const route = useRoute()
 const scrollPx = ref(0)
+import NewModal from '../utils/NewModal.vue';
 // scrollToTop: true
 onMounted(()=>{
   var sb = document.getElementById('scrollbar');
@@ -49,5 +92,48 @@ function scrollToTop() {
       behavior: 'smooth'
     })
     // console.log("aala", sb)
+}
+const menuitems : {
+    id: number;
+    path: string; 
+    name: string; 
+  }[]=[
+    {
+      id: 4,
+      path: `/`,
+      name: `Home`,
+    },
+    {
+      id: 6,
+      path: `/#about`,
+      name: `About`,
+    },
+    {
+      id: 5,
+      path: `/#portfolio`,
+      name: `Portfolio`,
+    },
+    {
+      id: 1,
+      path: `/#team`,
+      name: `Team`
+    },
+    {
+      id: 1,
+      path: `/insights`,
+      name: `Insights`
+    },
+  ]
+const navbarstatus = useNavbar()
+const activeTab= ref(0)
+const router = useRouter()
+const isOpen= ref(false)
+function home(){
+  if (activeTab.value!=0) {
+        //for de-assigning
+        isOpen.value = false;
+        activeTab.value = 0;
+  }
+  router.push({path:'/'})
 }
 </script>

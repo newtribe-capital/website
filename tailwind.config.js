@@ -14,6 +14,9 @@ module.exports = {
     //   '4.5xl': '40px'
     // },
     extend: {
+      fontFamily: {
+        primary: ['Outfit']
+      },
       backgroundImage: {
         'bg1': "url('https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png')",
       },
