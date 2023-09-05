@@ -6,22 +6,24 @@
             <div><p class="w-full text-justify md:w-1/2 mt-5 md:mt-10">We participate in panel discussions and keynote speeches with other industry leaders. We also host webinars, hackathons, and other such events to bring together like-minded people that can connect and build cutting-edge technology together.</p></div>
         </div>
         <div class="flex h-auto flex-col w-full z-50 space-y-5">
-            <div class="w-full h-auto grid grid-flow-row gap-5 grid-cols-5">
-                <div class="w-full h-full col-span-2"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence1_vnu4fb.jpg" alt=""></div>
-                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence2_p9rjdk.jpg" alt=""></div>
-                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389807/team/presence3_wqv0es.jpg" alt=""></div>
-                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence4_bgerbl.jpg" alt=""></div>
-            </div>
-            <div class="w-full h-auto grid grid-flow-row gap-5 grid-cols-5">
-                <div class="w-full h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence5_fuwirn.jpg" alt=""></div>
-                <div class="w-full h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389809/team/presence6_uyt5dv.jpg" alt=""></div>
-                <div class="w-full col-span-2 h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence7_xyauhh.jpg" alt=""></div>
-                <div class="w-full h-64"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389809/team/presence8_yjdreg.jpg" alt=""></div>
-            </div>
-            <div class="w-full h-auto grid grid-flow-row gap-5 grid-cols-5">
-                <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence9_wucxrh.jpg" alt=""></div>
-                <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence10_z6cz6x.jpg" alt=""></div>
-                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693389808/team/presence10_z6cz6x.jpg" alt=""></div>
+            <div class="w-full marquee h-full-mt-9">                
+                <div class="track h-full">
+                    <div class="content h-full">
+                        <div class="w-full h-full grid grid-flow-col z-30 gap-4 grid-rows-2">
+                            <div class="w-[480px] row-span-2 col-span-2"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913828/team/t11_wlgfuc.png" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913827/team/t9_fah1gn.png" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913827/team/t10_r6xkc4.png" alt=""></div>
+                            <div class="w-full col-span-2 row-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t1_g3na3q.png" alt=""></div>
+                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t2_ww9lvu.png" alt=""></div>
+                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t6_uarupd.png" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t3_ovkezy.png" alt=""></div>
+                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t7_y2lgah.png" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t4_go3yiz.png" alt=""></div>
+                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t5_tqcyer.png" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t8_msbzmn.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -31,4 +33,25 @@ import AOS from 'aos';
 onMounted(() => AOS.init());
 
 </script>
-<style></style>
+<style scoped>
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 460px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  height: 100%;
+  will-change: transform;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+</style>

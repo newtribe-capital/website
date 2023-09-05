@@ -30,7 +30,7 @@
     </a>
 </div>
 </template>
-<style>
+<style scoped>
 .swiper {
     margin-left: auto;
     margin-right: auto;

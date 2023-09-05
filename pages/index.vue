@@ -14,12 +14,12 @@
                 <SectionsOurPortfolio />
             </div>
             <div class="relative pb-12 md:pb-28">                
-                <div class="absolute hidden md:block h-64 w-24 right-3 top-3"><div><p class="mt-10 text-6xl font-bold text-zinc-700 transform rotate-90 bg-">#VIBES</p></div></div>
-                <SectionsCulture />
-            </div>
-            <div class="relative pb-12 md:pb-28">                
                 <div class="absolute hidden md:block h-64 w-24 right-3 top-3"><div><p class="mt-10 text-6xl font-bold text-zinc-700 transform rotate-90 bg-">#OURPEOPLE</p></div></div>
                 <SectionsTeam />
+            </div>
+            <div class="relative pb-12 md:pb-28">                
+                <div class="absolute hidden md:block h-64 w-24 right-3 top-3"><div><p class="mt-10 text-6xl font-bold text-zinc-700 transform rotate-90 bg-">#VIBES</p></div></div>
+                <SectionsCulture />
             </div>
             <div class="relative pb-12 md:pb-28">                
                 <!-- <div class="absolute z-50 h-64 w-24 right-3 top-3"><div><p class="mt-10 text-6xl font-bold text-zinc-700 transform rotate-90 bg-">#FOLIO</p></div></div> -->

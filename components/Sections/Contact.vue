@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="flex flex-col space-y-2">
                                         <label for="msg">Please provide the project summary in 2 to 3 sentences.</label>
-                                        <input v-model="data.message" type="text" id="msg" class="w-full h-32 md:h-52 bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message or Note to Team NewTribe" required />
+                                        <input v-model="data.message" type="text" id="msg" class="w-full h-32 md:h-24 bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message or Note to Team NewTribe" required />
                                     </div>
                                     <div class="flex flex-col space-y-2">
                                         <div class="flex flex-row space-x-2 items-center">
@@ -65,7 +65,11 @@
                                             <input v-model="data.layerzero" type="checkbox" id="layerzero" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" required />
                                             <label for="layerzero">Layer Zero/Layer One Protocol</label>
                                         </div>
-                                        <input v-model="data.other" type="text" id="other" class="w-full accent-zinc-700 focus:accent-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Other then what is mentioned above" required />
+                                        <input v-model="data.other" type="text" id="other" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Other then what is mentioned above" required />
+                                        <div class="flex flex-col space-y-2">
+                                            <label for="protocol">Upload Pitch here</label>
+                                            <input type="file" id="other" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Upload your Pitch here" required />
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="w-full md:w-1/2 flex flex-col space-y-5 mt-4 md:mt-0">
@@ -99,7 +103,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="flex flex-row w-full bg-zinc-800 hover:bg-zinc-900 mt-8 rounded-sm px-8 py-4 text-zinc-400 items-center justify-between">
+                            <button class="flex flex-row w-3/4 h-12 bg-zinc-800 hover:bg-zinc-900 mt-8 rounded-sm px-8 py-4 text-zinc-400 items-center justify-between">
                                 <p>Submit</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                   <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />

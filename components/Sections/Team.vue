@@ -28,55 +28,64 @@ const team : {
       id: 1,
       name: `Dhaval Parikh`,
       designation: `Partner & Investment Lead`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553569/team/Dhaval_fslpb5.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553569/team/Dhaval_fslpb5.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912857/team/Dhaval_sjxkfz.png`
     },    
     {
       id: 2,
       name: `Juliet Su`,
       designation: `Partner & Ecosystem Lead`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553569/team/Juliet_uwpfkt.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553569/team/Juliet_uwpfkt.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912857/team/Juliet_me4hzz.png`
     },    
     {
       id: 3,
       name: `Prashant C`,
       designation: `Partner & Tech Lead`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553569/team/Prashant_rqlymb.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553569/team/Prashant_rqlymb.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912858/team/Prashant_qt2qbj.png`
     },    
     {
       id: 4,
       name: `Victor Olmo`,
       designation: `Partner`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553571/team/Victor_v4udr7.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553571/team/Victor_v4udr7.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912858/team/Victor_tipl8t.png`
     },    
     {
       id: 5,
       name: `Mikita Gandhi`,
       designation: `Investment Associate`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Mikita_rs3m48.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Mikita_rs3m48.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912858/team/Mikita_bgqahr.png`
     },    
     {
       id: 6,
       name: `Monika Modi`,
       designation: `Investment Associate`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553571/team/Monika_zlenaf.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553571/team/Monika_zlenaf.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912857/team/Monika_jk7lwc.png`
     },    
     {
       id: 7,
       name: `Irina Heaver`,
-      designation: `Legal Counsel`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Irina_kz7ptg.png`
+      designation: `Legal & Regulatory Advisor`,
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Irina_kz7ptg.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912858/team/Irina_w1opqf.png`
     },    
     {
       id: 8,
       name: `Viivek Mehata`,
       designation: `Marketing Manager`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553571/team/Vivek_darplk.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553571/team/Vivek_darplk.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912857/team/Vivek_gfunu0.png`
     },    
     {
       id: 9,
       name: `Alvaro Molina`,
       designation: `Ecosystem Manager`,
-      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Alvaro_jqnr37.png`
+      // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Alvaro_jqnr37.png`
+      src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912857/team/Alvaro_fnubj8.png`
     },    
   ]
 </script>

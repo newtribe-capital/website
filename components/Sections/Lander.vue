@@ -8,11 +8,11 @@
             <div><p class="text-2xl md:text-5xl">NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital fund</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
         </div>
         <!-- Trusted Projects -->
-        <div class="relative flex flex-col w-full md:w-4/5 h-auto my-10 bg-zinc-900/70 backdrop-blur-sm">
-          <div  class="z-10 flex flex-col w-full h-auto bg-zinc-900/70 backdrop-blur-sm py-8 md:py-24">
+        <div class="relative flex flex-col w-full m h-auto my-10 bg-zinc-900/70 backdrop-blur-sm">
+          <div  class="z-10 flex flex-col w-full h-auto bg-zinc-900/70 backdrop-blur-sm py-8 md:py-16">
             <div style="z-index: -999;" class="absolute bg-gradient-to-br hidden md:block blu from-sky-400 to-sky-950 rounded-full shadow-[20px_20px_20px_-4px_rgba(0,0,0,0.3)] shadow-sky-900/90 -top-24 left-0 md:left-16 w-56 h-56"></div>
             <div class="absolute blur- z-30 bg-gradient-to-br hidden md:block from-emerald-400 to-emerald-950 rounded-full shadow-[30px_35px_30px_-6px_rgba(0,0,0,0.3)] shadow-emerald-950/90 -bottom-24 md:right-16 w-44 h-44"></div>
-              <div class="px-24 mb-8 text-sm md:text-lg"><p>Trusted by over a 100+ Projects </p></div>
+              <div class="px-24 mb-8 text-sm md:text-xl"><p>Trusted by over a 100+ Projects </p></div>
               <div class="absolute hidden md:block w-full -300 -z-10 -top-20 h-[] overflow-hidden"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/Vector_3_Stroke_rangay_bae_rangy_wb3jgz.svg" alt="" class="w-full"></div>
               <div class="absolute hidden md:block left-0 h-3/4 bottom-8 blur-md z-40 w-24 bg-zinc-900/90"></div>
               <div class="absolute hidden md:block right-0 h-3/4 bottom-8 blur-md z-10 w-24 bg-zinc-900/90"></div>
@@ -24,9 +24,9 @@
                     :autoplay="{
                       delay: 500,
                       disableOnInteraction: false
-                    }" class="w-full h-full bg- flex items-end mb-4">
-                    <SwiperSlide v-for="(item, index) in cards" :key="index" class="h-40 b flex items-end pb-1 shadow-b-md">
-                      <div class="flex w-56 bg-zinc-700 h-40 justify-center items-center">
+                    }" class="w-full h-full flex items-end mb-4">
+                    <SwiperSlide v-for="(item, index) in cards" :key="index" class="h- b flex items-end pb-1 shadow-b-md">
+                      <div class="flex w-64 bg-zinc-700/80 backdrop-blur-sm h-28 justify-center items-center">
                         <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
                           <img :src="item.link" alt="" class="h-full">
                         </div>
@@ -43,7 +43,7 @@
                       reverseDirection: true,
                     }" class="w-full h- flex">
                     <SwiperSlide v-for="(item, index) in cards2" :key="index" class="h-52 bg- pb-1 shadow-b-md">
-                      <div class="flex w-56 bg-zinc-700 h-40 justify-center items-center">
+                      <div class="flex w-64 bg-zinc-700/80 backdrop-blur-sm h-28 justify-center items-center">
                         <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
                           <img :src="item.link" alt="" class="h-full">
                         </div>
@@ -250,7 +250,7 @@ const cards2 : {
     },
 ]
 </script>
-<style>
+<style scoped>
 .c--anim-btn span2 {
 text-decoration: none;
 text-align: center;
@@ -281,7 +281,7 @@ margin-top: -6.5em;
     margin-right: auto;
     position: relative;
     overflow: hidden;
-    height: 120px;
+    /* height: 100px; */
     width: 90%;
     overflow: clip;
     list-style: none;
@@ -290,13 +290,17 @@ margin-top: -6.5em;
     display: flex;
     flex-direction: row;
 }
+.swiper-slide{
+  flex-shrink: 0;
+  height: 100%;
+}
 .swiper-wrapper {
     position: relative;
     width: auto;
-    height: 100%;
+    height: 60%;
     z-index: 1;
     display: flex;
-    gap: 30px;
+    gap: 10px;
     transition-property: transform;
     transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
     box-sizing: content-box;
