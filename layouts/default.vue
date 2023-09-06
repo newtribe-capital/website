@@ -1,9 +1,9 @@
 <template>
-    <div class="h-screen w-full flex flex-col font-primary fixed text-white bg-zinc-950">
-        <div class="fixed w-full" style="z-index: 999;">
-          <div class="hidden md:block"><Navbar/></div>
+    <div class="h-full w-full flex flex-col overflow-x-auto font-primary text-white bg-zinc-950">
+        <div class="fixed w-full" style="z-index: 899;">
+          <div class="hidden lg:block w-full top-0"><Navbar/></div>
           <!-- start of mobile nav -->
-          <div class="w-full block md:hidden h-auto z-40 flex px-8 flex-row items-center justify-between bg-neutral-800/80 py-4 text-neutral-300 backdrop-blur-md">
+          <div class="w-full md:hidden h-auto z-40 flex px-8 flex-row items-center justify-between bg-neutral-800/80 py-4 text-neutral-300 backdrop-blur-md">
             <div class="w-1/2 h-full flex items-center">
               <a href="/" class=" flex items-center"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a>
             </div>
@@ -37,14 +37,13 @@
             </template>
           </NewModal>
         </div>
-        <div id="scrollbar" class="w-full mt-16 h-full flex flex-col overflow-auto justify-">
-            <div class="w-full relative">
-             
-                <div>
-                    <slot />
-                    
+        <div id="scrollbar" class="w-full flex z-40 flex-col relative">
+              <div class="w-full">             
+                <div >
+                    <slot />                    
                 </div>
-              <div style="z-index: 9999;" class="hidden md:block h-36 w-20 fixed bottom-20 right-24">
+              </div>
+              <div style="z-index: 999;" class="z-50 h-36 w-24 fixed bottom-20 right-24">
                 <div v-if="scrollPx > 300" class="bg-zinc-700/30 backdrop-blur-md rounded-md px-3 w-3/4 h-full flex flex-col items-center py-3 justify-between">
                     <div @click="scrollToTop" id="myBtn">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cursor-pointer w-6 h-6 text-emerald-500 hover:text-emerald-700">
@@ -63,8 +62,8 @@
                     </a>
                 </div>
               </div>
-            </div>
-            <div><Footer/></div>           
+            <div>
+              <Footer/></div>           
         </div> 
     </div>
 </template>
@@ -78,7 +77,7 @@ function hamborgir(){
 const route = useRoute()
 const scrollPx = ref(0)
 import NewModal from '../utils/NewModal.vue';
-// scrollToTop: true
+scrollToTop: true
 onMounted(()=>{
   var sb = document.getElementById('scrollbar');
   sb?.addEventListener("scroll", (e) => {

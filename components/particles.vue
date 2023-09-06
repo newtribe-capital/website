@@ -1,13 +1,15 @@
 <template>
-    <div class="z-50">
-
+    <div>
         <vue-particles
             id="tsparticles"
             :particlesInit="particlesInit"
             :particlesLoaded="particlesLoaded"
             :options="{
-                   
-                    fpsLimit: 120,
+                    fullscreen : {
+                        enable:false,
+                        zIndex:-1
+                    },
+                    fpsLimit: 60,
                     interactivity: {
                         events: {
                             // onClick: {
@@ -24,11 +26,11 @@
                             bubble: {
                                 distance: 400,
                                 duration: 2,
-                                opacity: 0.4,
+                                opacity: 0.2,
                                 size: 40
                             },
                             push: {
-                                quantity: 4
+                                quantity: 2
                             },
                             repulse: {
                                 distance: 200,
@@ -44,12 +46,12 @@
                             color: '#ffffff',
                             distance: 200,
                             enable: true,
-                            opacity: 0.2,
+                            opacity: 0.1,
                             width: 1
                         },
-                        collisions: {
-                            enable: true
-                        },
+                        // collisions: {
+                        //     enable: true
+                        // },
                         move: {
                             direction: 'none',
                             enable: true,

@@ -4,7 +4,7 @@
             <span v-for="(item, index) in items" :key="index">
               <div :class="`relative`">
                 <div @click="toggleAcco(item.id)" role="accordion" class="border sticky top-0 cursor-pointer border-zinc-700 p-4 md:p-9 flex flex-row justify-between items-center" :class="activeAccoID == item.id? `bg-zinc-900`:``">
-                    <p class="text-xl font-extralight md:text-5xl">{{item.question}} <br>{{item.question2}}</p>
+                    <p class="text-xl font-extralight md:text-5xl">{{item.question}}</p>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" :class="activeAccoID==item.id? 'transform rotate-180' : ''" class="text-sky-500 w-12 h-12">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
@@ -179,7 +179,7 @@ const items : {
     }[] = [
    {
     id:1,
-    question: `Founders, Ready to start your`,
+    question: `Project Form`,
     question2: `entrepreneurial journey?`,
     answer: ``
    },
