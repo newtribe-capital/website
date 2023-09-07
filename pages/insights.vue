@@ -185,11 +185,11 @@
                     <div class="w-full h-auto mt-8 md:mt-24">
                         <div class="w-full flex flex-row space-x-8 items-center text-2xl md:text-5xl">
                             <p>View Pitch Deck for year 2023</p>
-                            <div class="cursor-pointer">
+                            <a href="https://docsend.com/view/3vpdzeb8f3mumenc" target="_blank" class="cursor-pointer">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 md:w-12 h-9 md:h-12 text-sky-500 hover:text-white">
                                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                 </svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <!-- Card 5 horizontal -->
@@ -197,12 +197,12 @@
                         <div class="relative w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg5_jkkqui.png" alt=""></div>
                             <div class="absolute top-0 flex p-9 bg-b flex-row items-center justify-between h-full w-full">
-                                <div class="w- flex flex-col text-3xl md:text-6xl text-white ">
+                                <div class="w- flex flex-col text-2xl md:text-6xl text-white ">
                                     <p class="">Check out some words from</p>
                                     <p class=" font-semibold">Team NewTribe on medium</p>
                                 </div>
-                                <a href="https://docsend.com/view/3vpdzeb8f3mumenc" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 text-zinc-300 hover:text-white">
+                                <a href="https://medium.com/@NewTribeCap" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 md:w-12 h-10 md:h-12 text-zinc-300 hover:text-white">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
                                 </a>
