@@ -8,7 +8,7 @@
       <div class="flex w-full h-full flex-row justify-end items-center text-lg">
         <div class="flex flex-row space-x-4 mr-4 justify-end">
           <span v-for="(item, index) in menuitems" :key="index" class="w-full flex items-center flex-row space-x-4 justify-end">
-            <a :href="item.path" class="cursor-pointer hover:text-white relative">
+            <NuxtLink :to="item.path" class="cursor-pointer hover:text-white relative">
               <p>{{item.name}}</p>
               <div v-if="route.path+route.hash == item.path && '/'+route.hash == item.path && route.path+route.hash!='/'" class="absolute -bottom-1 flex w-full justify-center">
                 <p class="h-1 w-2 rounded-full bg-sky-400"></p>
@@ -17,7 +17,7 @@
                 <p class="h-1 w-2 rounded-full bg-sky-400"></p>
               </div>
               <div v-else class="absolute -bottom-1 flex w-full justify-center"></div>
-            </a>
+            </NuxtLink>
           </span>
         </div>
         <div class="h-4 w-0.5 rounded-full bg-sky-400"></div>

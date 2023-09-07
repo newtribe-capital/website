@@ -7,15 +7,17 @@
         <!-- Desktop -->
         <div class="hidden md:block">
             <div class="flex flex-row space-x-8 w-full justify- items-center">
-              <span v-for="(item, index) in categories" :key="index" class="flex flex-row w- space-x-2 items-center">
+              <span v-for="(item, index) in categories" :key="index" class="">
+                <div @click="selectcategories(item.id)" class="flex flex-row cursor-pointer space-x-2 items-center">
                   <div><img :src="item.src" alt=""></div>
-                  <div  class="relative" @click="selectcategories(item.id)">
-                      <p class="cursor-pointer">{{ item.name }}</p>
+                  <div  class="relative">
+                      <p class="">{{ item.name }}</p>
                       <div v-if="selectedCat ==item.id" class="absolute flex w-full justify-center">
                           <p class="h-1 w-4 rounded-full bg-sky-500"></p>
                       </div>
                       <div v-else></div>
                   </div>
+                </div>
                   <!-- <p class="text-green-400">{{ selectedCat }}{{ categories[selectedCat-1].id  }}</p> -->
               </span>
             </div>            
@@ -45,7 +47,7 @@
                     <div class="flex p-4 w-full h-auto flex-row flex-wrap gap-2">
                       <div v-for="(it, i) in item.arr" :key="i" class="flex h-16 flex-row h-  md:px-0">
                         <div class="w-full h-full flex flex-row space-x-2">
-                            <div class="h-full w-full bg-black"><img :src="it.src" alt="" class="h-full w-full"></div>
+                            <div class="h-full w-full bg-black"><img :src="it.src" alt="" class="h-full md:w-full"></div>
                         </div>
                       </div>
                     </div>
@@ -55,7 +57,7 @@
         </div>
     </div>
     <div class="h-auto w-full hidden md:block">
-        <div class="shadow-b-md bg-black flex h-auto md:h-80 w-full flex-col text-zinc-400 p-8">
+        <div class="shadow-b-md b bg-black flex h-auto md:h-64 w-full flex-col text-zinc-400 p-8">
           <div class="flex flex-wrap gap-2 h-auto w-full items-center ">
             <div v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
               <div class="flex h-full w-full flex-row space-x-2">
@@ -66,6 +68,7 @@
         </div>        
     </div>
   </div>
+  <!-- <div><hr class="w-full border border-zinc-700"></div> -->
 </div>
 </template>
 <style>
@@ -109,34 +112,20 @@ function selectcategories(id)  {
    cat.value = categories.find((category) => category.id ==id )
 }
 
+const i = ref(0)
+
 onMounted( () =>  {
 
-    //  let i=1
-    //   for(let i=1;i<categories.length;i++) {
-    //     setInterval(() => {
-     
-    //  if(i<=categories.length){
-    //   i=1
-    //  }
-    //  else{
-      selectcategories(1)
-    //  }
-    // }, 1000)
-    //   }
-   
-        // selectcategories(i)
-        // i=i+1
-        // console.log(i)
-  
-   
-        
+  setInterval(() => {
+      i.value++;
+      if (i.value > categories.length) {
+        i.value = 1;
+      }
+     setTimeout(() => {
+        selectcategories(i.value)
+      }, 200);
+    }, 4000);
 
-
-//    for(var i=0; i<categories.length; i++)
-//    { 
-//     console.log(categories[i].id, "meow")
-//     categories[0].name
-//    }
 })
 const categories:any = [
     {

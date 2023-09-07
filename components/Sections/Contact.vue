@@ -21,7 +21,7 @@
                             </div>
                             <div class="w-full md:w-1/2 flex justify-center"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div>
                         </div>
-                        <form class="w-full flex flex-col mt-10">
+                        <form @submit.prevent="largeFormSub()" class="w-full flex flex-col mt-10">
                             <div class="w-full flex flex-col md:flex-row space-x-0 md:space-x-9">
                                 <div class="w-full md:w-1/2 flex flex-col space-y-5 justify-between">
                                     <div class="flex flex-col space-y-2">
@@ -126,10 +126,10 @@
                     <div class="px-4 md:px-9 pt-4 md:pt-9 flex flex-col">
                         <p>we’d love to hear from you,<br> Use the fields below to get in touch with us </p>
                         <div>
-                            <form class="w-full flex flex-col space-y-4 mt-4">
-                                <div class=""><input v-model="data.name" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-600 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Name" required /></div>
-                                <div class=""><input v-model="data.email" type="email" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-600 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Email" required /></div>
-                                <div class=""><input v-model="data.message" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-4 text-zinc-600 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message" required /></div>
+                            <form @submit.prevent="smallFormSub()" class="w-full flex flex-col space-y-4 mt-4">
+                                <div class=""><input v-model="data.name" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Name" required /></div>
+                                <div class=""><input v-model="data.email" type="email" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Email" required /></div>
+                                <div class=""><input v-model="data.message" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-4 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message" required /></div>
                                 <button class="flex flex-row w-full rounded-sm bg-zinc-800 hover:bg-zinc-900 px-8 py-4 text-zinc-400 items-center justify-between">
                                     <p>Submit</p>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 h-auto md:h-[540px] p-4 md:p-9 overflow-hidden">
-                    <img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693562493/team/contact_h8bdjp.png" alt="">
+                    <img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1694083423/client%20categories/ctnt_sg0ghu.png" alt="">
                 </div>
             </div>            
         </div>
@@ -169,14 +169,47 @@ const data = reactive({
     layerzero:"",
     other:"",
 })
+async function smallFormSub(){
+    // console.log((data.approvalArr),"ids")
+    try{
+        let formdata = new FormData()
+        formdata.append("name",data.name)
+        formdata.append("email",data.email)
+        formdata.append("message",data.message)
+        console.log(formdata, "vfhsnj")
+        await useFetch(`https://formail-api.ortigan.dev/api`, {
+            method: 'GET',
+            body: formdata,
+            headers: {
+                apikey: `8OTQVvhkJkxTQLQ8`
+            }
+        })
+    }
+    catch(error){
+        console.log("some problem sending data")
+    }
+}
+function largeFormSub(){
+    try{
+        let formdata = new FormData()
+        formdata.append("name",data.name)
+        formdata.append("product_ids[]",data.email)
+        formdata.append("product_ids[]",data.message)
+        // console.log(formdata, "vfhsnj")
+        // let res = await useFetch(useRuntimeConfig().public.base_url + useRuntimeConfig().public.url_prefix + `/admin/products?page=${currentPage}&sq=${searchQuery}`, {
+        //     method: 'GET',
+        //     headers: {
+        //         Authorization: `Bearer ${store.token}`
+        //     }
+        // })
+    }
+    catch(error){
+        console.log("some problem sending data")
+    }
+}
 const activeAccoID= ref(0)
 const isOpen= ref(false)
-const items : { 
-    id: number;
-    question: string; 
-    question2: string; 
-    answer: string
-    }[] = [
+const items  = [
    {
     id:1,
     question: `Project Form`,

@@ -12,41 +12,51 @@
           </div>
         </div>
         <!-- for mobile -->
-        <div class="w-full bg-[#1B1B1B] mt-8 md:mt-24 py-24">
-          <div><p class="text-3xl md:text-6xl font-extralight px-6 md:px-20">Ecosystem Partners</p></div>
+        <div class="mt-8 md:mt-10 w-full block md:hidden px-6 md:px-20">
+          <Swiper
+            :modules="[SwiperAutoplay, SwiperEffectCards]"
+            :slides-per-view="3"
+            :loop="true"
+            :autoplay="{
+              delay: 1000,
+              disableOnInteraction: false
+            }" class="w-full h- mb-4">
+            <SwiperSlide v-for="(i, index) in menuitems" :key="index" class="w-full justify-center items-center flex flex-col space-y-3">
+              <div class=" justify-center items-center flex"><img :src="i.src" alt=""></div>
+              <div class=" justify-center items-center flex text-center"><p>{{ i.des1 }} <br>{{ i.des2 }}</p></div>
+            </SwiperSlide>
+          </Swiper>
+          <!-- <div class="w-full grid grid-flow-row grid-cols-4 gap-12">
+            <div v-for="(i,index) in menuitems" :key="index" class="w-full flex flex-row space-x-6">
+              <div><img :src="i.src" alt=""></div>
+              <div><p>{{ i.des1 }} <br>{{ i.des2 }}</p></div>
+            </div>
+          </div> -->
+        </div>
+        <!-- Ecosystem Partners -->
+        <div class="w-full bg-[#1B1B1B] mt-8 md:mt-24 pt-12 pb-12 md:pt-24 md:pb-24">
+          <div><p class="text-3xl md:text-6xl font-extralight px-6 md:px-20">Who we work with</p></div>
           <div class="mt-5 md:mt-10">
             <div class="w-full marquee h-full">                
-                <div class="track h-full">
-                    <div class="content h-full">
-                        <div class="flex flex-row space-x-5 h-40 w-max overflow-hidden">
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993814/ecosystem%20partners/Group_481662_opvtat.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994319/ecosystem%20partners/Group_481663_el8j9i.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993810/ecosystem%20partners/Group_481661_iqghdf.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994354/ecosystem%20partners/Group_481668_wsz1lb.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994348/ecosystem%20partners/Group_481664_jzhxu3.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994351/ecosystem%20partners/Group_481666_ofj1ja.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994352/ecosystem%20partners/Group_481667_ett1ae.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994353/ecosystem%20partners/Group_481659_nsxrof.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993738/ecosystem%20partners/Group_481660_z6el6d.png" alt=""></div>
-                            <div class="h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994350/ecosystem%20partners/Group_481665_fqfu9w.png" alt=""></div>
-                        </div>
-                        <!-- <div class="w-full h-full grid grid-flow-col z-30 gap-4 grid-rows-2">
-                            <div class="w-[480px] row-span-2 col-span-2"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913828/team/t11_wlgfuc.png" alt=""></div>
-                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913827/team/t9_fah1gn.png" alt=""></div>
-                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913827/team/t10_r6xkc4.png" alt=""></div>
-                            <div class="w-full col-span-2 row-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t1_g3na3q.png" alt=""></div>
-                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t2_ww9lvu.png" alt=""></div>
-                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t6_uarupd.png" alt=""></div>
-                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t3_ovkezy.png" alt=""></div>
-                            <div class="w-full col-span-2 h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t7_y2lgah.png" alt=""></div>
-                            <div class="w-full h-full"></div>
-                            <div class="w-full col-span-2 h-full"></div>
-                            <div class="w-full h-full"></div>
-                        </div> -->
-                    </div>
+              <div class="track h-full">
+                <div class="content h-full">
+                  <div class="flex flex-row space-x-5 h-28 md:h-32 w-max overflow-hidden">
+                    <div class="h-auto md:h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993814/ecosystem%20partners/Group_481662_opvtat.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994319/ecosystem%20partners/Group_481663_el8j9i.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993810/ecosystem%20partners/Group_481661_iqghdf.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994354/ecosystem%20partners/Group_481668_wsz1lb.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994348/ecosystem%20partners/Group_481664_jzhxu3.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994351/ecosystem%20partners/Group_481666_ofj1ja.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994352/ecosystem%20partners/Group_481667_ett1ae.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994353/ecosystem%20partners/Group_481659_nsxrof.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993738/ecosystem%20partners/Group_481660_z6el6d.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994350/ecosystem%20partners/Group_481665_fqfu9w.png" alt=""></div>
+                  </div>
                 </div>
+              </div>
             </div>
           </div>
+          <div class="w-full flex -mt-4 md:mt-5"><p class="text-sm md:text-lg font-extralight px-6 md:px-20">+300 more ecosystem partners</p></div>
         </div>
         <!-- next sec -->
         <div class="pt-6 md:pt-36 w-full md:w-4/5 h-auto relative">
@@ -54,23 +64,23 @@
             <div data-aos="slide-up" data-aos-duration="600" data-aos-mirror="true"  class="absolute bg-gradient-to-bl hidden md:block from-zinc-700 m to-black rounded-full shadow-[0px_35px_30px_-2px_rgba(0,0,0,0.3)] shadow-black top-8 right-0 md:-right-12 w-56 h-56 -z-10 "></div>
             <!-- <div class="absolute -right-16 top-0 -z-10 h-full w-56"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693209916/svg%20items/Rectangle_1480_xhthfk.svg" alt="" class="w-full"></div> -->
             <div data-aos="fade-right" data-aos-duration="400" class="w-full flex flex-col md:flex-row space-y-2 md:space-y-0 space-x-0 md:space-x-5 px-6 md:px-20">
-                <div class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-end md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
+                <div data-aos="fade-right" data-aos-duration="400" class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-center md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
+                    <div><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693208995/ecosystem%20support%20icons/pie-chart-04_shqjxm.svg" alt=""></div>
+                    <div class="flex flex-col">                      
+                      <div><p class="text-3xl md:text-6xl text-sky-500">$40 Mn+</p></div>
+                      <div><p class="hidden md:block">Funds  <br>Deployed</p></div>
+                      <div><p class="block md:hidden">Funds Deployed</p></div>
+                    </div>
+                </div>
+                <div class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-center md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
                     <div><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693208995/ecosystem%20support%20icons/chart-breakout-circle_k9m1ao.svg" alt=""></div>
                     <div class="flex flex-col">
-                      <div><p class="text-3xl md:text-6xl text-sky-500">170+</p></div>
+                      <div><p class="text-3xl md:text-6xl text-sky-500">100+</p></div>
                       <div><p class="hidden md:block">Projects in <br>Portfolio</p></div>
                       <div><p class="block md:hidden">Projects in Portfolio</p></div>
                     </div>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="400" class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-end md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
-                    <div><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693208995/ecosystem%20support%20icons/pie-chart-04_shqjxm.svg" alt=""></div>
-                    <div class="flex flex-col">                      
-                      <div><p class="text-3xl md:text-6xl text-sky-500">$100 Mn+</p></div>
-                      <div><p class="hidden md:block">Assets Under  <br>Management</p></div>
-                      <div><p class="block md:hidden">Assets Under Management</p></div>
-                    </div>
-                </div>
-                <div data-aos="fade-right" data-aos-duration="400" class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-end md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
+                <div data-aos="fade-right" data-aos-duration="400" class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-center md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
                     <div><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693208995/ecosystem%20support%20icons/line-chart-up-05_zsodw0.svg" alt=""></div>
                     <div class="flex flex-col">
                       <div><p class="text-3xl md:text-6xl text-sky-500">$200k</p></div>
@@ -188,7 +198,36 @@ const menuitems : {
   ]
 </script>
 <style scoped>
-.marquee {
+.swiper {
+    /* margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden; */
+    /* height: 100px; */
+    width: 100%;
+    overflow: clip;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+/* .swiper-slide{
+  flex-shrink: 0;
+  height: 100%;
+} */
+.swiper-wrapper {
+    position: relative;
+    width: auto;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+    box-sizing: content-box;
+  }
+  .marquee {
   position: relative;
   width: 100vw;
   max-width: 100%;

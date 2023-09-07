@@ -3,5 +3,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.home-links a {
+  margin-right: 1rem;
+}
+::-moz-selection { 
+  background: #262626;
+}
+
+::selection {
+  background: #737373;
+}
+
+::-webkit-scrollbar {
+  background: #262626;
+  width: 6px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid #262626;
+  /* border-radius: 0px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #737373;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #18AEE4;
+}
+  
 
 

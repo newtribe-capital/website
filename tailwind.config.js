@@ -20,6 +20,9 @@ module.exports = {
       backgroundImage: {
         'bg1': "url('https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png')",
       },
+      scale: {
+        '500': '5',
+      }
     },
   },
   variants: {

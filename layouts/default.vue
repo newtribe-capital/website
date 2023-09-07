@@ -37,13 +37,13 @@
             </template>
           </NewModal>
         </div>
-        <div id="scrollbar" class="w-full flex z-40 flex-col relative">
+        <div class="w-full flex z-40 overflow-hidden flex-col relative">
               <div class="w-full">             
                 <div >
                     <slot />                    
                 </div>
               </div>
-              <div style="z-index: 999;" class="z-50 h-36 w-24 fixed bottom-20 right-24">
+              <!-- <div style="z-index: 999;" class="z-50 h-36 w-24 fixed bottom-20 right-24">
                 <div v-if="scrollPx > 300" class="bg-zinc-700/30 backdrop-blur-md rounded-md px-3 w-3/4 h-full flex flex-col items-center py-3 justify-between">
                     <div @click="scrollToTop" id="myBtn">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="cursor-pointer w-6 h-6 text-emerald-500 hover:text-emerald-700">
@@ -61,8 +61,8 @@
                         </svg>
                     </a>
                 </div>
-              </div>
-            <div>
+              </div> -->
+            <div class="w-full">
               <Footer/></div>           
         </div> 
     </div>
