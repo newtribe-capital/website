@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="flex flex-col space-y-2">
                                         <label for="msg">Please provide the project summary in 2 to 3 sentences.</label>
-                                        <input v-model="data.message" type="text" id="msg" class="w-full h-32 md:h-24 bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message or Note to Team NewTribe" required />
+                                        <input v-model="data.summary" type="text" id="msg" class="w-full h-32 md:h-24 bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message or Note to Team NewTribe" required />
                                     </div>
                                     <div class="flex flex-col space-y-2">
                                         <div class="flex flex-row space-x-2 items-center">
@@ -68,7 +68,7 @@
                                         <input v-model="data.other" type="text" id="other" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Other then what is mentioned above" required />
                                         <div class="flex flex-col space-y-2">
                                             <label for="protocol">Upload Pitch here</label>
-                                            <input type="file" id="other" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Upload your Pitch here" required />
+                                            <input @change="uploadFile(data.files)" type="file" id="other" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Upload your Pitch here" required />
                                         </div>
                                     </div>
                                 </div>
@@ -78,8 +78,8 @@
                                         <input v-model="data.protocol" type="text" id="protocol" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Your answer" required />
                                     </div>
                                     <div class="flex flex-col space-y-2">
-                                        <label for="protocol">Team details (LinkedIn/Portfolio preferred)*</label>
-                                        <input v-model="data.protocol" type="text" id="protocol" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Your answer" required />
+                                        <label for="teamdetails">Team details (LinkedIn/Portfolio preferred)*</label>
+                                        <input v-model="data.team_details" type="text" id="teamdetails" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Your answer" required />
                                     </div>
                                     <div class="flex flex-col space-y-2">
                                         <label for="investors">Backers Investors onboarded so far?</label>
@@ -121,7 +121,7 @@
                 <div class="w-full md:w-1/2 h-full border-r border-zinc-700 py-4 md:py-9 flex flex-col">
                     <div class="px-4 md:px-9 pb-4 md:pb-9 border-b border-zinc-700 flex flex-col text-2xl font-extralight md:text-5xl">
                         <p>Drop your </p>
-                        <p>message below </p>
+                        <p>message below</p>
                     </div>
                     <div class="px-4 md:px-9 pt-4 md:pt-9 flex flex-col">
                         <p>we’d love to hear from you,<br> Use the fields below to get in touch with us </p>
@@ -151,6 +151,7 @@
 const data = reactive({
     name:"",
     message: "", 
+    summary: "", 
     email:"",
     protocol:"",
     team_details:"",
@@ -162,6 +163,7 @@ const data = reactive({
     defi:"",
     smedia:"",
     nft:"",
+    files:null,
     gamefi:"",
     metaverse:"",
     dsecurity:"",
@@ -169,16 +171,18 @@ const data = reactive({
     layerzero:"",
     other:"",
 })
+const formdata = new FormData()
 async function smallFormSub(){
     // console.log((data.approvalArr),"ids")
     try{
-        let formdata = new FormData()
-        formdata.append("name",data.name)
-        formdata.append("email",data.email)
-        formdata.append("message",data.message)
+        // let formdata = new FormData()
+        formdata.append("body[name]",data.name)
+        formdata.append("body[email]",data.email)
+        formdata.append("body[message]",data.message)
+        formdata.append("subject", `Hey there, you've got a new inquiry`)
         console.log(formdata, "vfhsnj")
-        await useFetch(`https://formail-api.ortigan.dev/api`, {
-            method: 'GET',
+        await useFetch(`https://formail-api.ortigan.dev/api/send`, {
+            method: 'POST',
             body: formdata,
             headers: {
                 apikey: `8OTQVvhkJkxTQLQ8`
@@ -189,24 +193,52 @@ async function smallFormSub(){
         console.log("some problem sending data")
     }
 }
-function largeFormSub(){
+
+function uploadFile(x) {
+    let files = x
+    for (let i = 0; i < files.length; i++) {
+        formdata.append("attachments[]", files[i])
+    }
+}
+async function largeFormSub(){
     try{
-        let formdata = new FormData()
-        formdata.append("name",data.name)
-        formdata.append("product_ids[]",data.email)
-        formdata.append("product_ids[]",data.message)
-        // console.log(formdata, "vfhsnj")
-        // let res = await useFetch(useRuntimeConfig().public.base_url + useRuntimeConfig().public.url_prefix + `/admin/products?page=${currentPage}&sq=${searchQuery}`, {
-        //     method: 'GET',
-        //     headers: {
-        //         Authorization: `Bearer ${store.token}`
-        //     }
-        // })
+        formdata.append("body[email]",data.email)
+        formdata.append("body[summary]",data.summary)
+        formdata.append("body[other]",data.other)
+        formdata.append("body[protocol]",data.protocol)
+        formdata.append("body[team_details]",data.team_details)
+        formdata.append("subject", `Hey there, you've got a new inquiry`)
+        console.log(formdata, "vfhsnj")
+        await useFetch(`https://formail-api.ortigan.dev/api`, {
+            method: 'POST',
+            body: formdata,
+            headers: {
+                apikey: `8OTQVvhkJkxTQLQ8`
+            }
+        })
     }
     catch(error){
         console.log("some problem sending data")
     }
 }
+// function largeFormSub(){
+//     try{
+//         let formdata = new FormData()
+//         formdata.append("name",data.name)
+//         formdata.append("product_ids[]",data.email)
+//         formdata.append("product_ids[]",data.message)
+//         // console.log(formdata, "vfhsnj")
+//         // let res = await useFetch(useRuntimeConfig().public.base_url + useRuntimeConfig().public.url_prefix + `/admin/products?page=${currentPage}&sq=${searchQuery}`, {
+//         //     method: 'GET',
+//         //     headers: {
+//         //         Authorization: `Bearer ${store.token}`
+//         //     }
+//         // })
+//     }
+//     catch(error){
+//         console.log("some problem sending data")
+//     }
+// }
 const activeAccoID= ref(0)
 const isOpen= ref(false)
 const items  = [
