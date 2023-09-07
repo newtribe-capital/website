@@ -1,25 +1,13 @@
 <template>
     <div class="relative h-auto  w-full text-zinc-400 flex flex-col text-sm md:text-lg">
-      <!-- <div class="absolute top-16 left-8 md:left-24 h-64 md:h-96 -z-10 "><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/blackball_qecfav.svg" alt="" class="h-full w-full"></div> -->
-      <!-- <div class="flex flex-col w-full h-full my-24 md:my-40 px-6 md:px-20 bg-">
-        <div class="mb-[50px] md:mb-9 w-1/2"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div>
-        <div><p class="text-2xl md:text-5xl">NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital fund</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
-        <button class="flex flex-row w-1/3 h-12 bg-zinc-800 mt-8 rounded-sm px-8 py-4 text-zinc-400 items-center justify-between text-sm md:text-lg">
-          <p>Understand More about Ecosystem Support</p>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
-          </svg>
-        </button>
-      </div> -->
   
       <!-- Supposed to be fixed Lander -->
       <div class="h-screen relative">
         <!-- <div class="absolute w-20 z-10 h-full hidden md:block right-16"><hr class="w-0.5 h-full bg-zinc-700"></div> -->
           <!-- <div  class="absolute bg-gradient-to-br from-zinc-800 blur-md to-black rounded-full shadow-[30px_35px_30px_-2px_rgba(0,0,0,0.3)] shadow-black top-8 md:top-20  w-56 md:w-72 h-56 md:h-72 -z-10 "></div> -->
           <particles id="particles-js" class="absolute bg-gradient-to-b from-zinc-800 to-zinc-950" />
-          <div class="flex scale-100 md:scale-150 text-center text-white justify-center items-center flex-col w-full h-full px-6 md:px-20 ">
-                <!-- <div class="-z-40"><particles /></div> -->
-         
+          <div class="flex text-center text-white justify-center items-center flex-col w-full h-full px-6 md:px-20 ">
+                <!-- <div class="-z-40"><particles /></div> -->         
                   <div data-aos="fade-down" data-aos-duration="400"><p class="text-xs md:text-xl">INVESTING IN</p></div>
                 <div data-aos="fade-down" data-aos-duration="500"><p class="text-3xl mt-0 md:mt-1 md:text-7xl font-extralight">PEOPLE,</p></div>
                 <div data-aos="fade-down" data-aos-duration="600"><p class="text-3xl md:text-7xl font-medium">INNOVATION &</p></div>
