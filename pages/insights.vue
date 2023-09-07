@@ -104,7 +104,7 @@
                     <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                         <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-black font-bold">NewTribe x  <br> MRHB</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-black font-bold">NewTribe x  <br> MRHB</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-zinc-900 text-sm md:text-xl font-light">
                                     <div><p class="font-">Taking a Peek at the Investment </p></div>
@@ -122,7 +122,7 @@
                     <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
                         <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-black font-bold">Sheesha <br> Finance</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-black font-bold">Sheesha <br> Finance</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-zinc-900 text-sm md:text-xl font-light">
                                     <div><p class="font-">Partnership Spotlight: </p></div>
@@ -148,7 +148,7 @@
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                             <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-white font-semibold">Fundraising for a crypto project</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-white font-semibold">Fundraising for a crypto project</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-white text-sm md:text-xl">
                                         <div><p class="font-medium">4 min read</p></div>
@@ -166,7 +166,7 @@
                         <div data-aos="fade-right" data-aos-duration="400" class="overflow-hidden relative w-full md:w-1/2 h-56 md:h-96">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                             <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-white font-semibold">Transforming the Venture Capital World</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-white font-semibold">Transforming the Venture Capital</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-white text-sm md:text-xl">
                                         <div><p class="font-medium">6 min read</p></div>
