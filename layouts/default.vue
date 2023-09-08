@@ -136,3 +136,56 @@ function home(){
   router.push({path:'/'})
 }
 </script>
+<style>
+.loader {
+  height: 5px;
+  background: #5ecb96;
+  position: relative;
+}
+.loader span {
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 10px;
+  box-shadow: #5ecb96 0 0 15px;
+  animation: animate 2s infinite ease-in-out;
+  opacity: 0;
+}
+.loader span:nth-child(1) {
+  animation-delay: 0s;
+}
+.loader span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.loader span:nth-child(3) {
+  animation-delay: 1s;
+}
+.loader span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+@keyframes animate {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    left: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+    left: calc(100% - 10px);
+  }
+  100% {
+    opacity: 0;
+    left: calc(100% - 10px);
+  }
+}
+</style>

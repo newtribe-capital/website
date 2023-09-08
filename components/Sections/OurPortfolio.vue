@@ -1,5 +1,5 @@
 <template>
-<div id="portfolio" class="h-auto w-full bg-black py-12 px-0 text-sm text-zinc-400 md:px-20 md:text-lg">
+<div  class="h-auto w-full bg-black mt-8 md:mt-16 py-12 px-0 text-sm text-zinc-400 md:px-20 md:text-lg">
   <div class="flex w-full flex-col md:w-4/5">
     <div><p class="text-3xl md:text-6xl px-6">Our Portfolio</p></div>
     <div><p class="mt-5 w-full text-justify md:mt-10 px-6">At NewTribe Capital, our portfolio is a testimony to the future we envision. Spanning a diverse range of domains from the virtual expanses of Metaverse & NFTs, the explosive growth sectors of Gaming and DeFi, the foundational blocks of Infrastructure, to the advanced realms of AI and the promising avenues of Launchpads, our investments are strategic, forward-thinking, and encompass the full spectrum of the digital revolution.</p></div>
@@ -19,6 +19,14 @@
                   </div>
                 </div>
                   <!-- <p class="text-green-400">{{ selectedCat }}{{ categories[selectedCat-1].id  }}</p> -->
+                  <!-- <div class="flex flex-wrap gap-2 h-auto w-full items-center ">
+            <div v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
+              
+              <div class="flex h-full w-full flex-row space-x-2">
+                <div class="h-24 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover" /></div>
+              </div>
+            </div>
+          </div> -->
               </span>
             </div>            
         </div>
@@ -59,15 +67,16 @@
     <div class="h-auto w-full hidden md:block">
         <div class="shadow-b-md b bg-black flex h-auto md:h-64 w-full flex-col text-zinc-400 p-8">
           <div class="flex flex-wrap gap-2 h-auto w-full items-center ">
-            <div v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
-              <div class="flex h-full w-full flex-row space-x-2">
-                <div data-aos="fade-right" data-aos-duration="400" class="h-24 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover" /></div>
+            <span  v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
+              <div  class="flex h-full w-full flex-row space-x-2">
+                <div class="h-20 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover"  /></div>
               </div>
-            </div>
+            </span>
           </div>
         </div>        
     </div>
   </div>
+  <div class="w-full flex px-8 md:px-0 -mt-4 md:mt-5"><p class="text-sm md:text-lg font-extralight">+100 WEB3 Projects</p></div>
   <!-- <div><hr class="w-full border border-zinc-700"></div> -->
 </div>
 </template>
@@ -109,6 +118,7 @@ const cat = ref({})
 
 function selectcategories(id)  {
    selectedCat.value = id
+   cat.value = {}
    cat.value = categories.find((category) => category.id ==id )
 }
 
@@ -117,97 +127,95 @@ const i = ref(0)
 onMounted( () =>  {
 
   setInterval(() => {
+    setTimeout(() => {
+       selectcategories(i.value)
+     }, 200);
       i.value++;
       if (i.value > categories.length) {
         i.value = 1;
       }
-     setTimeout(() => {
-        selectcategories(i.value)
-      }, 200);
     }, 4000);
 
 })
 const categories:any = [
-    {
-        id:1,
-        name:`Metaverse & NFT`,
-        path:`#metaverse`,
-        src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/metaverse_mtsqse.svg`,
-        arr:[
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983474/client%20categories/Matterless_qbey9w.png`},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983474/client%20categories/bondly_wigla5.png`},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983474/client%20categories/SecondLive_vfypgj.png`}
+{
+    id:1,
+    name:`Metaverse & NFT`,
+    path:`#metaverse`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/metaverse_mtsqse.svg`,
+    arr:[
+    {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073805/Our%20Portfolio%20Logos/Matterless_nrocco.svg`},
+    {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073804/Our%20Portfolio%20Logos/Bondly_a8btjt.svg`},
+    {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073805/Our%20Portfolio%20Logos/SecondLive_fvxk8d.svg`}
+    ]
+},
+{
+    id:2,
+    name:`Launchpads`,
+    path:`#launchpads`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/launchpads_khjfdi.svg`,
+    arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073792/Our%20Portfolio%20Logos/Paid_Network_wedstd.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073792/Our%20Portfolio%20Logos/Poolz_w1a2sa.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073793/Our%20Portfolio%20Logos/Suipad_gvtmg2.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073793/Our%20Portfolio%20Logos/Singularity_DAO_d6nn07.svg`,},
+    ]
+},
+{
+    id:3,
+    name:`Gaming`,
+    path:`#gaming`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/gaming_jxgwoz.svg`,
+    arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073768/Our%20Portfolio%20Logos/Cross_the_Ages_g5pj6k.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983690/client%20categories/Sidus_heroes_fhu4d8.png`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073769/Our%20Portfolio%20Logos/Ready_Games_Network_gebazk.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073768/Our%20Portfolio%20Logos/Engines_of_Fury_sfdinj.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073769/Our%20Portfolio%20Logos/Blockus_ryramz.svg`,},
+    ]
+},
+{
+    id:4,
+    name:`Defi`,
+    path:`#defi`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/defi_hu83rh.svg`,
+    arr:[
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/Equifi_c0bqfz.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/FluidAI_e4zl9e.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Portal_DeFi_kvrwnc.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/DeFi_lkaqcy.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Ovix_l6qvpt.svg`,},            
         ]
     },
     {
-        id:2,
-        name:`Launchpads`,
-        path:`#launchpads`,
-        src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/launchpads_khjfdi.svg`,
+        id:5,
+        name:`Infrastructure`,
+        path:`#infrastructure`,
+        src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/infrastructure_vpb5l4.svg`,
         arr:[
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983535/client%20categories/Padi_Ntework_vztcsm.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983534/client%20categories/poolz_uu1qnx.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983534/client%20categories/Unkown_u6o5uo.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983534/client%20categories/Suipad_loqk3a.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983534/client%20categories/Singularity_DAO_z8qk7o.png`,},
-        ]
-    },
-    {
-        id:3,
-        name:`Gaming`,
-        path:`#gaming`,
-        src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/gaming_jxgwoz.svg`,
-        arr:[
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983689/client%20categories/Cross_the_Ages_xkjjxr.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983690/client%20categories/Sidus_heroes_fhu4d8.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983691/client%20categories/Sidus_heroes-1_he5lsa.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983690/client%20categories/Ready_Games_Network_m88nmf.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983689/client%20categories/Engines_of_Fury_c8hifr.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983689/client%20categories/Blockus_qitueb.png`,},
-        ]
-    },
-    {
-        id:4,
-        name:`Defi`,
-        path:`#defi`,
-        src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/defi_hu83rh.svg`,
-        arr:[
-            { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985573/client%20categories/Frame_129_miqbfv.png`,},            
-            { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985573/client%20categories/FluidAI_x8nuur.png`,},            
-            { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985575/client%20categories/Portal_DeFi_a0thnt.png`,},            
-            { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985573/client%20categories/defi_usjjwn.png`,},            
-            { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985574/client%20categories/Ovix_lcbk0f.png`,},            
-            ]
-        },
-        {
-            id:5,
-            name:`Infrastructure`,
-            path:`#infrastructure`,
-            src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/infrastructure_vpb5l4.svg`,
-            arr:[
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984267/client%20categories/Casper_wwdlzp.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984268/client%20categories/smooth_ureqpk.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984270/client%20categories/Web3Auth_cwweoh.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984974/client%20categories/kilt_dybytt.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984268/client%20categories/intution_gxtiu9.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984265/client%20categories/hapi_nab1bx.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984266/client%20categories/ArchwayLogo_3_bldt5w.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984269/client%20categories/Nulink_txwo16.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693984267/client%20categories/Dojima_Network_hqyylo.png`,},
-        ]
-    },
-    {
-        id:6,
-        name:`AI`,
-        path:`#ai`,
-        src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/aiicon_anncxw.svg`,
-        arr:[
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985026/client%20categories/i_me_px00di.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985026/client%20categories/Rejuve_ar7zjm.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985027/client%20categories/NuNet_zlfpyo.png`,},
-            {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693985025/client%20categories/Sophia_Verse_fglvsn.png`,},            
-        ]
-    },
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Casper_wgkync.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Smooth_Labs_vehm3e.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Web3Auth_wdmfpn.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073780/Our%20Portfolio%20Logos/Kilt_l1ipca.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073780/Our%20Portfolio%20Logos/Intuition_kwdqiz.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073779/Our%20Portfolio%20Logos/Fractal_bqzkym.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Archway_sx4pvg.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073781/Our%20Portfolio%20Logos/Nulink_hgcw5b.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073779/Our%20Portfolio%20Logos/Dojima_Network_umgoxh.svg`,},
+    ]
+},
+{
+    id:6,
+    name:`AI`,
+    path:`#ai`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/aiicon_anncxw.svg`,
+    arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/iMe_od1f7q.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Rejuve_bk2zbo.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/NuNet_bqt6ha.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Sophia_Verse_ojvtdl.svg`,},            
+    ]
+},
 ]
 
 </script>

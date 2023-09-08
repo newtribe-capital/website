@@ -2,7 +2,7 @@
   <div class="h-auto w-full flex flex-col space-y-6 text-base md:text-lg">
     <div class="flex h-auto w-full flex-col space-y-4 md:space-y-0 md:flex-row items-center justify-between bg-zinc-800 py-4 text-zinc-600">
       <div class="flex justify-center pl-0 md:pl-12"><p class="text-2xl md:text-4xl font-extrabold italic tracking-widest">#NEWTRIBECONNECT</p></div>
-      <div class="w-full md:w-1/2 pr-16 flex flex-row space-x-4 items-center justify-center md:justify-end">
+      <div class="w-full md:w-1/2 pr-0 md:pr-16 flex flex-row space-x-2 md:space-x-4 items-center justify-center md:justify-end">
         <div class="flex flex-row justify-end items-center space-x-2">
           <!-- Telegram -->
           <a href="https://t.me/NewTribeCap" target="_blank" class="hidden md:block flex w-8 md:w-12 h-8 md:h-12 p-2 justify-center items-center rounded-full bg-zinc-600 hover:bg-sky-400 cursor-pointer">
@@ -35,7 +35,7 @@
             </svg>
           </a>
         </div>
-        <div class="h-10 w-0.5 rounded-full bg-sky-400"></div>
+        <div class="h-10 w-0.5 hidden md:block rounded-full bg-sky-400"></div>
         <div class="w-16 flex flex-row text-zinc-400 justify-between">
           <!-- mail -->
           <a href="mailto:marketing@newtribe.capital" target="_blank" class="w-8 md:w-12 h-8 md:h-12 p-2 flex justify-center items-center rounded-full bg-zinc-600 hover:bg-sky-400 cursor-pointer">
@@ -72,18 +72,20 @@
       <div class="w-1/3 pl-0 md:pl-12"><a href="/"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a></div>
       <div class="flex h-full w-full md:w-2/3 items-center flex-col space-y-4 md:space-y-0 md:flex-row justify-end space-x-4 pr-0 md:pr-16">
         <div class="h-[1px] w-full rounded-full bg-sky-400 block md:hidden"></div>
-        <div class="flex h-full w-3/4 md:w-full flex-col items-center text-center md:items-end">
+        <div class="flex h-full w-3/4 md:w-full flex-col items-center text-center text-sm md:items-end">
           <p>Dubai | Gate Avenue, Zone D - Level 1 Al Mustaqbal St - Dubai - United Arab Emirates</p>
-          <p>Copyright © 2022 Newtribe Capital – All Rights Reserved.</p>
+          <p>Singapore  | 20A, Tanjong Pagar Road, Singapore (088443)</p>
+          <p class="hidden md:block">Copyright © 2022 Newtribe Capital – All Rights Reserved.</p>
+          <p class="block md:hidden">Copyright © 2022 Newtribe Capital <br> All Rights Reserved.</p>
           <a href="https://www.ortigan.com/" target="_blank"><p>Designed and Developed by <span class="font-semibold"> Ortigan</span></p></a>
           <p>Privacy Policy | Terms & Conditions</p>
         </div>
         <div class="h-32 w-0.5 rounded-full bg-sky-400 hidden md:block"></div>
         <div class="w-16 text-base flex-col text-zinc-500 hidden md:block">
-          <p>About</p>
-          <p>Portfolio</p>
-          <p>Team</p>
-          <p>Insights</p>
+          <p><a href="/#about" class="hover:text-zinc-400">About</a></p>
+          <p><a href="/#portfolio" class="hover:text-zinc-400">Portfolio</a></p>
+          <p><a href="/#team" class="hover:text-zinc-400">Team</a></p>
+          <p><a href="/insights" class="hover:text-zinc-400">Insights</a></p>
         </div>
       </div>
     </div>

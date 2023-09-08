@@ -1,5 +1,5 @@
 <template>
-    <div id="team" class="h-auto w-full px-6 md:px-20 text-sm md:text-lg text-zinc-400">
+    <div class="h-auto w-full px-6 md:px-20 text-sm md:text-lg text-zinc-400">
       <a name="team" class="w-full h-full">
         <div class="w-full md:w-4/5 flex flex-col">
             <div><p class="text-3xl font-extralight md:text-6xl">The Team</p></div>

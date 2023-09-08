@@ -6,18 +6,18 @@
         <!-- <div class="absolute w-20 z-10 h-full hidden md:block right-16"><hr class="w-0.5 h-full bg-zinc-700"></div> -->
           <!-- <div  class="absolute bg-gradient-to-br from-zinc-800 blur-md to-black rounded-full shadow-[30px_35px_30px_-2px_rgba(0,0,0,0.3)] shadow-black top-8 md:top-20  w-56 md:w-72 h-56 md:h-72 -z-10 "></div> -->
           <particles id="particles-js" class="absolute bg-gradient-to-b from-zinc-800 to-zinc-950" />
-          <div class="flex text-center text-white justify-center items-center flex-col w-full h-full px-6 md:px-20 ">
-                <!-- <div class="-z-40"><particles /></div> -->         
-                  <div data-aos="fade-down" data-aos-duration="400"><p class="text-xs md:text-xl">INVESTING IN</p></div>
-                <div data-aos="fade-down" data-aos-duration="500"><p class="text-3xl mt-0 md:mt-1 md:text-7xl font-extralight">PEOPLE,</p></div>
-                <div data-aos="fade-down" data-aos-duration="600"><p class="text-3xl md:text-7xl font-medium">INNOVATION &</p></div>
-                <div data-aos="fade-down" data-aos-duration="700"><p class="text-3xl md:text-7xl font-extrabold">TECHNOLOGY</p></div>
-                <div data-aos="fade-down" data-aos-duration="800" class="mt-[30px] md:mt-9 w-1/3 md:w-1/2 flex justify-center"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div>
-                <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top" class="flex text-center text-white justify-center items-center flex-col  px-6 md:px-20 ">
-                
-   
-               </div>
+          <ClientOnly>
+          <div class="flex text-center text-white justify-center items-center flex-col w-full h-full px-6 md:px-20 ">     
+                  <div data-aos="fade-down" data-aos-duration="300"><p class="text-xs md:text-xl">INVESTING IN</p></div>
+                <div data-aos="fade-down" data-aos-duration="300" data-aos-delay="300" ><p class="text-3xl mt-0 md:mt-1 md:text-7xl font-extralight">PEOPLE,</p></div>
+                <div data-aos="fade-down" data-aos-duration="300" data-aos-delay="600" ><p class="text-3xl md:text-7xl font-medium ">INNOVATION &</p></div>
+                <div data-aos="fade-down" data-aos-duration="300" data-aos-delay="900"><p class="text-3xl md:text-7xl font-extrabold ">TECHNOLOGY</p></div>
+                <div data-aos="fade-down" data-aos-duration="300" data-aos-delay="1300" class="mt-[30px] md:mt-9 w-1/3 md:w-1/2 flex justify-center "><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div>
+                <!-- <div data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top" class="flex text-center text-white justify-center items-center flex-col  px-6 md:px-20 ">
+               </div> -->
             </div>
+          </ClientOnly>
+            
         </div>
         <div class="flex text-center text-white justify-center items-center flex-col w-full h-full px-6 md:p-24 ">
           <div data-aos="zoom-out" data-aos-duration="700" class="hidden md:block"><p class="text-2xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital fund</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
@@ -46,8 +46,8 @@
                       delay: 50,
                       disableOnInteraction: false
                     }" class="w-full h-full flex items-end mb-4">
-                    <SwiperSlide v-for="(item, index) in cards" :key="index" class="h- b flex items-end pb-1 shadow-b-md">
-                      <div class="flex w-64 bg-zinc-700/80 backdrop-blur-sm h-28 justify-center items-center">
+                    <SwiperSlide v-for="(item, index) in cards" :key="index" class="h- flex items-end pb-1 shadow-b-md">
+                      <div class="flex w-56 bg-zinc-700/80 backdrop-blur-sm h-28 justify-center items-center">
                         <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
                           <img :src="item.link" alt="" class="h-full">
                         </div>
@@ -190,8 +190,9 @@ import AOS from 'aos';
 import { vShow } from 'nuxt/dist/app/compat/capi';
 onMounted(() => {
   AOS.init({
-    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-
+    easing: 'ease-in-out-cosine',
+    // debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+    anchorPlacement: 'top-bottom',
 
 // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
 once: false, // whether animation should happen only once - while scrolling down

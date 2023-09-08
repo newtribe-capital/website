@@ -10,6 +10,8 @@
                 <div class="track h-full">
                     <div class="content h-full">
                         <div class="flex flex-row space-x-5 h-full w-max">
+                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1694151533/team/t17_zvzsfc.png" alt=""></div>
+                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1694151533/team/t16_lhtqj3.png" alt=""></div>
                             <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t1_g3na3q.png" alt=""></div>
                             <div class="h-full md:w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913828/team/t11_wlgfuc.png" alt=""></div>
                             <!-- <div class="flex w-full space-y-5 h-full flex-col">
@@ -29,6 +31,9 @@
                             </div>
                             <div class="h-full w-full"><img class="h-full hidden md:block w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913744/team/t4_go3yiz.png" alt=""></div>
                             <div class="h-full md:w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t8_msbzmn.png" alt=""></div>
+                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1694151533/team/t17_zvzsfc.png" alt=""></div>
+                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1694151533/team/t16_lhtqj3.png" alt=""></div>
+                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913745/team/t1_g3na3q.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -54,7 +59,7 @@ onMounted(() => AOS.init());
   position: absolute;
   white-space: nowrap;
   height: 100%;
-  will-change: transform;
+  /* will-change: transform; */
   /* width: 300%; */
   overflow: hidden;
   animation: marquee 20s linear infinite;

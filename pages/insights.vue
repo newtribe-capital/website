@@ -14,41 +14,41 @@
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Delving deep into the heart of the blockchain universe, our insider reports encapsulate data-driven research, analyses, and projections that guide our investment decisions. Here, we share these insights with you, offering a detailed and informed perspective on the market dynamics</p></div>
                 <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card3 -->
-                    <div  class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <div  class=" h-full w-full hover:scale-500 "><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
-                        <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-white font-semibold">Real World Tokenization Report</p></div>
+                    <a href="https://docsend.com/view/yi8tec4itwm2jc5m" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Real World Tokenization Report</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-white text-sm md:text-xl">
+                                <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
                                     <div class="font-light">Reports</div>
                                 </div>
-                                <a href="https://docsend.com/view/yi8tec4itwm2jc5m" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 cursor-pointer text-white hover:text-zinc-200">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 ">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     <!-- Card4 -->
-                    <div  class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
+                    <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
                         <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
-                        <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-white font-semibold">BRC20 Report</p></div>
+                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">BRC20 Report</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-white text-sm md:text-xl">
+                                <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
                                     <div class="font-light">Reports</div>
                                 </div>
-                                <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 cursor-pointer text-white hover:text-zinc-200">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 cursor-pointer">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 
             </div>
@@ -58,83 +58,89 @@
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Our Investment Newsletter serves as a beacon for blockchain and Web3 investors, shedding light on NewTribe's recent investments, our views on market developments, and exclusive takes on new projects. Subscribe and stay updated with our regular dispatches.</p></div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card 6-->
-                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
+                    <a href="https://docsend.com/view/v7xhcegrzvhq8jit" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
-                        <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-black font-bold">Q2 July <br> 2023</p></div>
+                        <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q2 July <br> 2023</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-zinc-900 text-sm md:text-xl">
+                                <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Investment</p></div>
                                     <div class="font-light">Newsletter</div>
                                 </div>
-                                <a href="https://docsend.com/view/v7xhcegrzvhq8jit" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 cursor-pointer text-white hover:text-zinc-200">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 cursor-pointer">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     <!-- Card 7-->
-                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
-                        <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl text-black font-bold">Q3 Sept <br> 2022</p></div>
-                            <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-zinc-900 text-sm md:text-xl">
-                                    <div><p class="font-medium">Investment</p></div>
-                                    <div class="font-light">Newsletter</div>
+                    <div class="relative w-full md:w-1/2 h-56 md:h-96">
+                        <a href="https://docsend.com/view/4genzaeb8bf5ivps" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2022</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl">
+                                        <div><p class="font-medium">Investment</p></div>
+                                        <div class="font-light">Newsletter</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
                                 </div>
-                                <a href="https://docsend.com/view/4genzaeb8bf5ivps" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 cursor-pointer text-white hover:text-zinc-200">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </a>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- Section recent collaborations -->
+            <!-- Collaborations -->
             <div class="flex flex-col w-full md:w-4/5 h-auto mt-8 md:mt-24">
                 <div class=" px-6 md:px-20 text-3xl md:text-6xl"><p>Collaborations</p></div>
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>NewTribe believes in the power of collective intelligence. In our Collaborations section, we feature joint studies, reports, and projects undertaken with our partners and peers, highlighting the teamwork that drive the Web3 space forward,</p></div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card 8-->
                     <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
-                        <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-black font-bold">NewTribe x  <br> MRHB</p></div>
-                            <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-zinc-900 text-sm md:text-xl font-light">
-                                    <div><p class="font-">Taking a Peek at the Investment </p></div>
-                                    <div class="">Journeys of our Valued Partners</div>
+                        <a  href="https://twitter.com/NewTribeCap/status/1668930505562021890?s=20" target="_blank" class="group w-full h-full">                            
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Pitchtalk x <br> NewTribe</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl font-light">
+                                        <div><p class="font-">ecosystem #partnership </p></div>
+                                        <div class="">with @pitchtalk</div>
+                                    </div>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
                                 </div>
-                                <a href="https://mrhbdefi.medium.com/newtribe-x-mrhb-taking-a-peek-at-the-investment-journeys-of-our-valued-partners-dacc18534f03" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 cursor-pointer text-white hover:text-zinc-200">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </a>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- Card 9-->
                     <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
-                        <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-black font-bold">Sheesha <br> Finance</p></div>
-                            <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-zinc-900 text-sm md:text-xl font-light">
-                                    <div><p class="font-">Partnership Spotlight: </p></div>
-                                    <div class="">NewTribe Capital</div>
+                        <a href="https://twitter.com/newtribecap/status/1700084460648067110?s=46&t=J5KSX72vtn7yywUEMqltbQ" target="_blank" class="w-full h-full">                            
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Brinc x  <br> NewTribe</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl font-light">
+                                        <div><p class="font-">strategic partnership </p></div>
+                                        <div class="">with @brincvc</div>
+                                    </div>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
                                 </div>
-                                <a href="https://medium.com/@sheeshafinance-io/sheesha-finance-partnership-spotlight-newtribe-capital-2961cc371de7" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 cursor-pointer text-white hover:text-zinc-200">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </a>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -146,68 +152,77 @@
                     <div class="flex w-full flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-9">
                         <!-- Card -->
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
-                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
-                            <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-white font-semibold">Fundraising for a crypto project</p></div>
-                                <div class="flex w-full flex-row justify-between items-center">
-                                    <div class="flex flex-col text-white text-sm md:text-xl">
-                                        <div><p class="font-medium">4 min read</p></div>
-                                        <div class="font-light">April 22, 2022</div>
+                            <a href="https://medium.com/@NewTribeCap/fundraising-for-a-crypto-project-the-right-way-with-future-potential-tokens-1ba0d5250455" target="_blank" class="group w-full h-full">
+                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                                <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Fundraising for a crypto project</p></div>
+                                    <div class="flex w-full flex-row justify-between items-center">
+                                        <div class="flex flex-col text-sm md:text-xl">
+                                            <div><p class="font-medium">4 min read</p></div>
+                                            <div class="font-light">April 22, 2022</div>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <a href="https://medium.com/@NewTribeCap/fundraising-for-a-crypto-project-the-right-way-with-future-potential-tokens-1ba0d5250455" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 text-white hover:text-zinc-100">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                        </svg>
-                                    </a>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <!-- Card2 -->
                         <div data-aos="fade-right" data-aos-duration="400" class="overflow-hidden relative w-full md:w-1/2 h-56 md:h-96">
-                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
-                            <div class="absolute top-0 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl text-white font-semibold">Transforming the Venture Capital</p></div>
-                                <div class="flex w-full flex-row justify-between items-center">
-                                    <div class="flex flex-col text-white text-sm md:text-xl">
-                                        <div><p class="font-medium">6 min read</p></div>
-                                        <div class="font-light">July 22, 2021</div>
+                            <a href="https://medium.com/@NewTribeCap/transforming-the-venture-capital-world-741f81b864f5" target="_blank" class="group w-full h-full">
+                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
+                                <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Transforming the Venture Capital</p></div>
+                                    <div class="flex w-full flex-row justify-between items-center">
+                                        <div class="flex flex-col text-sm md:text-xl">
+                                            <div><p class="font-medium">6 min read</p></div>
+                                            <div class="font-light">July 22, 2021</div>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
                                     </div>
-                                    <a href="https://medium.com/@NewTribeCap/transforming-the-venture-capital-world-741f81b864f5" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 md:w-9 h-5 md:h-9 text-white hover:text-zinc-100">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                        </svg>
-                                    </a>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <!-- Download stuff -->
                     <div class="w-full h-auto mt-8 md:mt-24">
-                        <div class="w-full flex flex-row space-x-8 items-center text-2xl md:text-5xl">
-                            <p>View Pitch Deck for year 2023</p>
-                            <a href="https://docsend.com/view/3vpdzeb8f3mumenc" target="_blank" class="cursor-pointer">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 md:w-12 h-9 md:h-12 text-sky-500 hover:text-white">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Card 5 horizontal -->
-                    <div class="w-full h-56 md:h-96 mt-9">
-                        <div class="relative w-full h-full">
-                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg5_jkkqui.png" alt=""></div>
-                            <div class="absolute top-0 flex p-9 bg-b flex-row items-center justify-between h-full w-full">
-                                <div class="w- flex flex-col text-2xl md:text-6xl text-white ">
-                                    <p class="">Check out some words from</p>
-                                    <p class=" font-semibold">Team NewTribe on medium</p>
-                                </div>
-                                <a href="https://medium.com/@NewTribeCap" target="_blank">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 md:w-12 h-10 md:h-12 text-zinc-300 hover:text-white">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        <a href="https://docsend.com/view/3vpdzeb8f3mumenc" target="_blank" class="group">
+                            <div class="flex flex-row space-x-8 text-sky-500 group-hover:text-white items-center text-2xl md:text-5xl">
+                                <p class="text-white hover:text-zinc-300">View Pitch Deck for year 2023</p>
+                                <a class="cursor-pointer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 md:w-12 h-9 md:h-12 group-hover:scale-125">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                     </svg>
                                 </a>
                             </div>
-                        </div>
+
+                        </a>
+                    </div>
+                    <!-- Card 5 horizontal -->
+                    <div class="w-full h-56 md:h-96 mt-9">
+                        <a href="https://medium.com/@NewTribeCap" target="_blank" class="group w-full h-full bg-white">
+                            <div class="relative w-full h-full text-white group-hover:text-zinc-300">
+                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg5_jkkqui.png" alt=""></div>
+                                <div class="absolute top-0 flex p-9 bg-b flex-row items-center justify-between h-full w-full">
+                                    <div class="w- flex flex-col text-2xl md:text-6xl">
+                                        <p class="">Check out some words from</p>
+                                        <p class=" font-semibold">Team NewTribe on medium</p>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-10 md:w-12 h-10 md:h-12">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

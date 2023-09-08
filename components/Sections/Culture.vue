@@ -10,7 +10,7 @@
                 <div class="w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693383222/cultureteam/2team_fzrpj4.png" alt=""></div>
                 <div class="w-full"><img class="" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693383221/cultureteam/3team_ynyunf.jpg" alt=""></div>
             </div> -->
-            <div><p class="w-full text-left md:text-justify md:w-2/3 mt-5 md:mt-10 text-xl md:text-4xl">Get in touch with us on <br><span class="text-sky-500"><a target="_blank" href="mailto:marketing@newtribe.capital">marketing@newtribe.capital</a></span> </p></div>
+            <!-- <div><p class="w-full text-left md:text-justify md:w-2/3 mt-5 md:mt-10 text-xl md:text-4xl">Get in touch with us on <br><span class="text-sky-500"><a target="_blank" href="mailto:marketing@newtribe.capital">marketing@newtribe.capital</a></span> </p></div> -->
         </div>
     </div>
 </template>
