@@ -100,7 +100,7 @@ const team = [
       name: `Irina Heaver`,
       designation: `Legal & Regulatory Advisor`,
       twitter: `https://twitter.com/IrinaHeaver`,
-      linkdin: ``,
+      linkdin: `https://www.linkedin.com/mwlite/in/irinaheaver`,
       // src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693553570/team/Irina_kz7ptg.png`
       src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693912858/team/Irina_w1opqf.png`
     },    
