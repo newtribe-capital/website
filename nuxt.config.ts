@@ -40,8 +40,11 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/style.css',
   ],
-  modules: ['nuxt-swiper'],
+  modules: ['nuxt-swiper', 'nuxt-gtag'],
   // plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
+  gtag: {
+    id: 'G-CHGZ5WJS4N'
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
