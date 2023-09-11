@@ -1,7 +1,8 @@
 <template>
     <div data-aos="fade-right" class="h-auto w-full flex flex-col text-zinc-400 text-sm md:text-lg">
         <div ><p class="text-3xl md:text-6xl font-extralight px-6 md:px-20">Ecosystem Support</p></div>
-        <div><p class="text-sm md:text-lg mt-5 md:mt-10 w-full md:w-1/2 text-justify px-6 md:px-20">We have grown as one of the leading Web3 proprietary investment firms while maintaining a global presence. Our ecosystem comprises multiple partner companies that are leaders in their respective sectors. We leverage this network to give premium value-add to our portfolio companies and help in their overall growth and development.</p></div>
+        <div><p class="text-sm md:text-lg mt-5 md:mt-10 w-full md:w-1/2 text-justify px-6 md:px-20">As a standout leader in the Web3 investment space, we've successfully established a global footprint. Our thriving ecosystem includes partnerships with industry-leading companies across blockchain and Web3 space.</p></div>
+        <div><p class="text-sm md:text-lg mt-2 md:mt-5 w-full md:w-1/2 text-justify px-6 md:px-20">This expansive network empowers us to offer unparalleled value to our portfolio companies, significantly boosting their growth and long-term success.</p></div>
         <!-- for desktop -->
         <div class="mt-28 w-4/5 hidden md:block px-6 md:px-20">
           <div class="w-full grid grid-flow-row grid-cols-4 gap-12">

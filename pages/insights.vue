@@ -152,14 +152,14 @@
                     <div class="flex w-full flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-9">
                         <!-- Card -->
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
-                            <a href="https://medium.com/@NewTribeCap/fundraising-for-a-crypto-project-the-right-way-with-future-potential-tokens-1ba0d5250455" target="_blank" class="group w-full h-full">
+                            <a href="https://www.bloomberg.com/press-releases/2022-05-11/uae-based-newtribe-capital-to-invest-five-million-usd-in-blockchain-near-projects" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Fundraising for a crypto project</p></div>
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">NTC to Invest Five million USD</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">4 min read</p></div>
-                                            <div class="font-light">April 22, 2022</div>
+                                            <div class="font-light">May 11, 2022</div>
                                         </div>
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">

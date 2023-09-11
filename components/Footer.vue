@@ -1,8 +1,8 @@
 <template>
   <div class="h-auto w-full flex flex-col space-y-6 text-base md:text-lg">
-    <div class="flex h-auto w-full flex-col space-y-4 md:space-y-0 md:flex-row items-center justify-between bg-zinc-800 py-4 text-zinc-600">
-      <div class="flex justify-center pl-0 md:pl-12"><p class="text-2xl md:text-4xl font-extrabold italic tracking-widest">#NEWTRIBECONNECT</p></div>
-      <div class="w-full md:w-1/2 pr-0 md:pr-16 flex flex-row space-x-2 md:space-x-4 items-center justify-center md:justify-end">
+    <div class="flex h-auto w-full flex-col space-y-4 md:space-y-0 md:flex-row items- justify-between bg-zinc-800 py-4 text-zinc-600">
+      <div class="flex justify- pl-6 pr-6 md:pl-12"><p class="text-2xl md:text-4xl font-extrabold italic tracking-widest">#NEWTRIBECONNECT</p></div>
+      <div class="w-full md:w-1/2 pr-6 pl-6 md:pr-16 flex flex-row space-x-2 md:space-x-4 items-center justify- md:justify-end">
         <div class="flex flex-row justify-end items-center space-x-2">
           <!-- Telegram -->
           <a href="https://t.me/NewTribeCap" target="_blank" class="hidden md:block flex w-8 md:w-12 h-8 md:h-12 p-2 justify-center items-center rounded-full bg-zinc-600 hover:bg-sky-400 cursor-pointer">
@@ -50,33 +50,25 @@
               <path d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445	c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758	c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125	c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077	C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z"></path>
             </svg>
           </a>
-          <!-- <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
-            </svg>
-          </div>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-            </svg>
-          </div>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0l-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
-            </svg>
-          </div> -->
         </div>
       </div>
     </div>
     <div class="flex h-auto w-full flex-col space-y-4 md:space-y-0 md:flex-row items-center justify-between bg-zinc-800 py-8 md:py-4 text-zinc-400">
-      <div class="w-1/3 pl-0 md:pl-12"><a href="/"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a></div>
-      <div class="flex h-full w-full md:w-2/3 items-center flex-col space-y-4 md:space-y-0 md:flex-row justify-end space-x-4 pr-0 md:pr-16">
-        <div class="h-[1px] w-full rounded-full bg-sky-400 block md:hidden"></div>
-        <div class="flex h-full w-3/4 md:w-full flex-col items-center text-center text-sm md:items-end">
-          <p>Dubai | Gate Avenue, Zone D - Level 1 Al Mustaqbal St - Dubai - United Arab Emirates</p>
-          <p>Singapore  | 20A, Tanjong Pagar Road, Singapore (088443)</p>
-          <p class="hidden md:block">Copyright © 2022 Newtribe Capital – All Rights Reserved.</p>
-          <p class="block md:hidden">Copyright © 2022 Newtribe Capital <br> All Rights Reserved.</p>
+      <div class="w-full md:w-1/2 flex flex-col ">
+        <a href="/" class="h-6 md:h-8 pl-6 md:pl-12 justify- md:justify-normal flex pr-6"><img class="h-full" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a>
+        <div class="h-[1px] mt-4 w-full rounded-full bg-sky-400 block md:hidden"></div>
+        <div class="flex flex-col w-full md:items-start items-center space-y-4 md:space-y-0 justify-start text-base  md:text-left mt-4 pl-6 md:pl-12 pr-6">
+          <div class="md:w-full "><p><span class="text-sky-500">Dubai</span> <span class="text-emerald-500">|</span>  Gate Avenue, Zone D - Level 1 Al Mustaqbal St - Dubai - United Arab Emirates</p></div>
+          <div class="md:w-full "><p><span class="text-sky-500">Singapore</span> <span class="text-emerald-500"> |</span>  20A, Tanjong Pagar Road, Singapore (088443)</p></div>
+        </div>
+      </div>
+      <div class="flex h-full w-full md:w-1/2 items-center flex-col space-y-4 md:space-y-0 md:flex-row justify-end space-x-4 pr-0 md:pr-16">
+        <div class="flex h-full w-full px-6 md:w-full flex-col items- text-base md:items-end">
+          <!-- <p>Dubai | Gate Avenue, Zone D - Level 1 Al Mustaqbal St - Dubai - United Arab Emirates</p>
+          <p>Singapore  | 20A, Tanjong Pagar Road, Singapore (088443)</p> -->
+          <p class="hidden md:block"> © 2023 Newtribe Capital</p>
+          <p class="hidden md:block">All Rights Reserved.</p>
+          <p class="block md:hidden"> © 2023 Newtribe Capital <br> All Rights Reserved.</p>
           <a href="https://www.ortigan.com/" target="_blank"><p>Designed and Developed by <span class="font-semibold"> Ortigan</span></p></a>
           <p>Privacy Policy | Terms & Conditions</p>
         </div>
