@@ -20,8 +20,10 @@
             
         </div>
         <div class="flex text-center text-white justify-center items-center flex-col w-full h-full px-6 md:p-24 ">
-          <div data-aos="zoom-out" data-aos-duration="700" class="hidden md:block"><p class="text-2xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital firm</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
-                    <div data-aos="zoom-out" data-aos-duration="700" class="block md:hidden" ><p class="text-xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 Venture Capital firm</span> that invests in early-stage blockchain and crypto projects. We invest in <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
+          <!-- <div data-aos="zoom-out" data-aos-duration="700" class="hidden md:block"><p class="text-2xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 <br/> Venture Capital firm</span> that invests in early-stage<br/> blockchain and crypto projects. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div> -->
+          <div data-aos="zoom-out" data-aos-duration="700" class="hidden md:block"><p class="text-2xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">Web3 Venture<br/>  Capital firm</span> dedicated to investing in early-stage<br/> blockchain and crypto initiatives. We invest in<br/> <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
+                    <div data-aos="zoom-out" data-aos-duration="700" class="block md:hidden" ><p class="text-xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">Web3 Venture Capital firm</span> dedicated to investing in early-stage blockchain and crypto initiatives. We invest in <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div>
+                    <!-- <div data-aos="zoom-out" data-aos-duration="700" class="block md:hidden" ><p class="text-xl md:text-5xl" >NewTribe Capital is a <span class="text-sky-500">blockchain-oriented Web3 Venture Capital firm</span> that invests in early-stage blockchain and crypto projects. We invest in <span class="text-emerald-500"> People, Innovation & Technology.</span> </p></div> -->
                     <!-- <div data-aos="zoom-in" data-aos-duration="600" class="mt-[30px] md:mt-9 w-1/3 md:w-1/2 flex justify-center" ><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/newtribe_rqqufq.svg" alt=""></div> -->
                 
         </div>
@@ -115,7 +117,7 @@
             <a data-aos="fade-right" name="about" class="w-full hidden md:block px-6 md:px-20">
                 <div class="flex flex-row w-full space-x-0 md:space-x-32">
                     <div class="w-1/2 h-auto flex flex-col text-justify text-lg">
-                        <div ><p class="text-3xl font-extralight md:text-6xl mb-10">About us</p></div>
+                        <div ><p class="text-3xl font-extralight md:text-6xl mb-10">About Us</p></div>
                         <div><p class="mb-6">NewTribe Capital is more than just a Web3 venture firm; we're architects of the future network state.</p></div>
                         <div><p class="mb-6">Specializing in early-stage Web3 investments, we're committed to powering the next wave of open, secure, and decentralized technology.</p></div>
                         <div><p class="mb-6">We’re smart money. Our support goes far beyond financial investment. We equip our portfolio companies with unparalleled access to our vast industry network and vital resources, acting as catalysts for their success and growth.</p></div>

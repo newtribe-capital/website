@@ -155,7 +155,7 @@
                             <a href="https://www.bloomberg.com/press-releases/2022-05-11/uae-based-newtribe-capital-to-invest-five-million-usd-in-blockchain-near-projects" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">NTC to Invest Five million USD</p></div>
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">NTC invests in NEAR</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">4 min read</p></div>
@@ -195,7 +195,7 @@
                     <div class="w-full h-auto mt-8 md:mt-24">
                         <a href="https://docsend.com/view/3vpdzeb8f3mumenc" target="_blank" class="group">
                             <div class="flex flex-row space-x-8 text-sky-500 group-hover:text-white items-center text-2xl md:text-5xl">
-                                <p class="text-white hover:text-zinc-300">View Pitch Deck for year 2023</p>
+                                <p class="text-white hover:text-zinc-300">View Pitch Deck for Year 2023</p>
                                 <a class="cursor-pointer">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 md:w-12 h-9 md:h-12 group-hover:scale-125">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />

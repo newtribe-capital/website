@@ -125,7 +125,7 @@
                         <p>message below</p>
                     </div>
                     <div class="px-4 md:px-9 pt-4 md:pt-9 flex flex-col">
-                        <p>we’d love to hear from you,<br> Use the fields below to get in touch with us </p>
+                        <p>We’d love to hear from you,<br> use the fields below to get in touch with us </p>
                         <div>
                             <form @submit.prevent="smallFormSub()" class="w-full flex flex-col space-y-4 mt-4">
                                 <div class=""><input v-model="data.name" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Name" required /></div>
