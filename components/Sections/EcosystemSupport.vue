@@ -47,6 +47,7 @@
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650244/ecosystem%20partners/sosv_zrty6s.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650536/ecosystem%20partners/dfinity_pxjlnz.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650245/ecosystem%20partners/rakdao_ozlqfn.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698664650/ecosystem%20partners/cointelegraphacceleration_jzgofd.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993810/ecosystem%20partners/Group_481661_iqghdf.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994354/ecosystem%20partners/Group_481668_wsz1lb.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994348/ecosystem%20partners/Group_481664_jzhxu3.png" alt=""></div>
