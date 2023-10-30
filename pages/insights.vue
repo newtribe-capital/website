@@ -77,7 +77,7 @@
                     </a>
                     <!-- Card 7-->
                     <div class="relative w-full md:w-1/2 h-56 md:h-96">
-                        <a href="https://docsend.com/view/4genzaeb8bf5ivps" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
+                        <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
                                 <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2022</p></div>
@@ -132,6 +132,48 @@
                                     <div class="flex flex-col text-sm md:text-xl font-light">
                                         <div><p class="font-">strategic partnership </p></div>
                                         <div class="">with @brincvc</div>
+                                    </div>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                    <!-- Card 9.1-->
+                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <a href="https://x.com/NewTribeCap/status/1717449314115702987?s=20 " target="_blank" class="w-full h-full">                            
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">RAK Digital<br> Assets Oasis</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl font-light">
+                                        <div><p class="font-">ecosystem #partnership</p></div>
+                                        <div class="">with @RAK_DAO</div>
+                                    </div>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 8.1-->
+                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <a  href="https://x.com/NewTribeCap/status/1716419249689018766?s=20" target="_blank" class="group w-full h-full">                            
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Conflux X <br> NewTribe</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl font-light">
+                                        <div><p class="font-">ecosystem #partnership</p></div>
+                                        <div class="">with @Conflux_Network</div>
                                     </div>
                                     <a>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
