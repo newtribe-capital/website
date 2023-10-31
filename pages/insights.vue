@@ -58,6 +58,26 @@
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Our Investment Newsletter serves as a beacon for blockchain and Web3 investors, shedding light on NewTribe's recent investments, our views on market developments, and exclusive takes on new projects. Subscribe and stay updated with our regular dispatches.</p></div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card 6-->
+                    <div class="relative w-full md:w-1/2 h-56 md:h-96">
+                        <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2023</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl">
+                                        <div><p class="font-medium">Investment</p></div>
+                                        <div class="font-light">Newsletter</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 7-->
                     <a href="https://docsend.com/view/v7xhcegrzvhq8jit" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                         <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
@@ -74,75 +94,13 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <!-- Card 7-->
-                    <div class="relative w-full md:w-1/2 h-56 md:h-96">
-                        <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
-                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
-                            <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2022</p></div>
-                                <div class="flex w-full flex-row justify-between items-center">
-                                    <div class="flex flex-col text-sm md:text-xl">
-                                        <div><p class="font-medium">Investment</p></div>
-                                        <div class="font-light">Newsletter</div>
-                                    </div>
-                                    <div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                    </a>                    
                 </div>
             </div>
             <!-- Collaborations -->
             <div class="flex flex-col w-full md:w-4/5 h-auto mt-8 md:mt-24">
                 <div class=" px-6 md:px-20 text-3xl md:text-6xl"><p>Collaborations</p></div>
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>NewTribe believes in the power of collective intelligence. In our Collaborations section, we feature joint studies, reports, and projects undertaken with our partners and peers, highlighting the teamwork that drive the Web3 space forward,</p></div>
-                <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
-                    <!-- Card 8-->
-                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <a  href="https://twitter.com/NewTribeCap/status/1668930505562021890?s=20" target="_blank" class="group w-full h-full">                            
-                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
-                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Pitchtalk x <br> NewTribe</p></div>
-                                <div class="flex w-full flex-row justify-between items-center">
-                                    <div class="flex flex-col text-sm md:text-xl font-light">
-                                        <div><p class="font-">ecosystem #partnership </p></div>
-                                        <div class="">with @pitchtalk</div>
-                                    </div>
-                                    <a>
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- Card 9-->
-                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <a href="https://twitter.com/newtribecap/status/1700084460648067110?s=46&t=J5KSX72vtn7yywUEMqltbQ" target="_blank" class="w-full h-full">                            
-                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
-                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Brinc x  <br> NewTribe</p></div>
-                                <div class="flex w-full flex-row justify-between items-center">
-                                    <div class="flex flex-col text-sm md:text-xl font-light">
-                                        <div><p class="font-">strategic partnership </p></div>
-                                        <div class="">with @brincvc</div>
-                                    </div>
-                                    <a>
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card 9.1-->
                     <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
@@ -185,6 +143,48 @@
                         </a>
                     </div>
                 </div>
+                <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                    <!-- Card 8-->
+                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <a href="https://twitter.com/newtribecap/status/1700084460648067110?s=46&t=J5KSX72vtn7yywUEMqltbQ" target="_blank" class="w-full h-full">                            
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Brinc x  <br> NewTribe</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl font-light">
+                                        <div><p class="font-">strategic partnership </p></div>
+                                        <div class="">with @brincvc</div>
+                                    </div>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 9-->
+                    <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <a  href="https://twitter.com/NewTribeCap/status/1668930505562021890?s=20" target="_blank" class="group w-full h-full">                            
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Pitchtalk x <br> NewTribe</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl font-light">
+                                        <div><p class="font-">ecosystem #partnership </p></div>
+                                        <div class="">with @pitchtalk</div>
+                                    </div>
+                                    <a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>                
             </div>
             <!-- Editorials -->
             <div class="flex flex-col w-full md:w-4/5 h-auto mt-8 md:mt-24">

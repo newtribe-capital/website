@@ -202,7 +202,7 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Archway_sx4pvg.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073781/Our%20Portfolio%20Logos/Nulink_hgcw5b.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073779/Our%20Portfolio%20Logos/Dojima_Network_umgoxh.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698651201/Our%20Portfolio%20Logos/Linera_rafk6q.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698737094/Our%20Portfolio%20Logos/Linera_yo4uhr.svg`,},
     ]
 },
 {
