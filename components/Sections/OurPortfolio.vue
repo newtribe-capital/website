@@ -144,7 +144,7 @@ const categories:any = [
     path:`#metaverse`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/metaverse_mtsqse.svg`,
     arr:[
-    {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073805/Our%20Portfolio%20Logos/Matterless_nrocco.svg`},
+    {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Matterless_uvfefl.svg`},
     {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073804/Our%20Portfolio%20Logos/Bondly_a8btjt.svg`},
     {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073805/Our%20Portfolio%20Logos/SecondLive_fvxk8d.svg`}
     ]
@@ -155,7 +155,7 @@ const categories:any = [
     path:`#launchpads`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/launchpads_khjfdi.svg`,
     arr:[
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073792/Our%20Portfolio%20Logos/Paid_Network_wedstd.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698824971/Our%20Portfolio%20Logos/Paid_Network_tpd8dq.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073792/Our%20Portfolio%20Logos/Poolz_w1a2sa.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073793/Our%20Portfolio%20Logos/Suipad_gvtmg2.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073793/Our%20Portfolio%20Logos/Singularity_DAO_d6nn07.svg`,},
@@ -168,7 +168,7 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/gaming_jxgwoz.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073768/Our%20Portfolio%20Logos/Cross_the_Ages_g5pj6k.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693983690/client%20categories/Sidus_heroes_fhu4d8.png`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823744/Our%20Portfolio%20Logos/Sidus_heroes_s9jsbz.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073769/Our%20Portfolio%20Logos/Ready_Games_Network_gebazk.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073768/Our%20Portfolio%20Logos/Engines_of_Fury_sfdinj.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073769/Our%20Portfolio%20Logos/Blockus_ryramz.svg`,},
@@ -180,7 +180,7 @@ const categories:any = [
     path:`#defi`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/defi_hu83rh.svg`,
     arr:[
-        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/Equifi_c0bqfz.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698824971/Our%20Portfolio%20Logos/Equifi_pjg7uk.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/FluidAI_e4zl9e.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Portal_DeFi_kvrwnc.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/DeFi_lkaqcy.svg`,},            
@@ -195,13 +195,13 @@ const categories:any = [
         arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Casper_wgkync.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Smooth_Labs_vehm3e.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Web3Auth_wdmfpn.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698825004/Our%20Portfolio%20Logos/Web3Auth_qzz6ya.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073780/Our%20Portfolio%20Logos/Kilt_l1ipca.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073780/Our%20Portfolio%20Logos/Intuition_kwdqiz.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073779/Our%20Portfolio%20Logos/Fractal_bqzkym.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698827454/Our%20Portfolio%20Logos/HAPI_tyrr5t.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Archway_sx4pvg.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073781/Our%20Portfolio%20Logos/Nulink_hgcw5b.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073779/Our%20Portfolio%20Logos/Dojima_Network_umgoxh.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Nulink_hylpxn.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823744/Our%20Portfolio%20Logos/Dojima_Network_mudbhh.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698737094/Our%20Portfolio%20Logos/Linera_yo4uhr.svg`,},
     ]
 },
@@ -212,8 +212,8 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/aiicon_anncxw.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/iMe_od1f7q.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Rejuve_bk2zbo.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/NuNet_bqt6ha.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Rejuve_w1wseh.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823743/Our%20Portfolio%20Logos/NuNet_lmniz8.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Sophia_Verse_ojvtdl.svg`,},            
     ]
 },
