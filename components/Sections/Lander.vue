@@ -250,7 +250,7 @@ const cards : {
     },
     {
       id: 8,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572074/projects/gr_fbsfu9.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698838660/projects/nuxlink_circne.svg`,
     },
     {
       id: 8,

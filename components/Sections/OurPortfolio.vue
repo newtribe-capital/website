@@ -180,7 +180,7 @@ const categories:any = [
     path:`#defi`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/defi_hu83rh.svg`,
     arr:[
-        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698824971/Our%20Portfolio%20Logos/Equifi_pjg7uk.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698838396/Our%20Portfolio%20Logos/Equifi_cifnjp.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/FluidAI_e4zl9e.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Portal_DeFi_kvrwnc.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/DeFi_lkaqcy.svg`,},            
