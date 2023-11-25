@@ -124,14 +124,17 @@
                         <p>Drop your </p>
                         <p>message below</p>
                     </div>
-                    <div class="px-4 md:px-9 pt-4 md:pt-9 flex flex-col">
+                    <div class="px-4 md:px-9 pt-4 md:pt-9 flex flex-col">                        
                         <p>We’d love to hear from you,<br> use the fields below to get in touch with us </p>
                         <div>
                             <form @submit.prevent="smallFormSub()" class="w-full flex flex-col space-y-4 mt-4">
                                 <div class=""><input v-model="data.name" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Name" required /></div>
                                 <div class=""><input v-model="data.email" type="email" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="*Enter Email" required /></div>
                                 <div class=""><input v-model="data.message" type="text" id="name" class="w-full bg-zinc-700 focus:bg-zinc-800 px-8 py-4 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Message" required /></div>
-                                <button type="submit" class="flex flex-row w-full rounded-sm bg-zinc-800 hover:bg-zinc-900 px-8 py-4 text-zinc-400 items-center justify-between">
+                                <div class="mb-4">
+                                  <vue-turnstile site-key="0x4AAAAAAANdUptrV6hXkgUf" v-model="mytoken" />
+                                </div>
+                                <button :class="mytoken==null?'hidden':'block'" type="submit" class="flex flex-row w-full rounded-sm bg-zinc-800 hover:bg-zinc-900 px-8 py-4 text-zinc-400 items-center justify-between">
                                     <p>Submit</p>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                       <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
@@ -151,6 +154,20 @@
 <script lang="ts" setup>
 // import { useToast } from "vue-toastification";
 import { useToast } from "vue-toastification"
+import VueTurnstile from 'vue-turnstile';
+// const turnstile = VueTurnstile()
+const mytoken = ref('')
+
+// export default {
+//   components: { VueTurnstile },
+
+//   data() {
+//     return {
+//       token: '0x4AAAAAAANdUptrV6hvxyz',
+//     };
+//   },
+// };
+
 const toast = useToast()
 const data = reactive({
     name:"",
