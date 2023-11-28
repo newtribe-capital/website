@@ -34,35 +34,35 @@
                                     </div>
                                     <div class="flex flex-col space-y-2">
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.defi" type="checkbox" @change="chkstatus(data.defi)" value="DeFi" id="defi" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" type="checkbox" value="DeFi" id="defi" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="defi">DeFi</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.smedia" @change="chkstatus(data.smedia)" value="Social Media" type="checkbox" id="smedia" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" value="Social Media" type="checkbox" id="smedia" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="smedia">Social Media</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.nft" @change="chkstatus(data.nft)" value="NFT" type="checkbox" id="nft" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" value="NFT" type="checkbox" id="nft" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="nft">NFT</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.gamefi" @change="chkstatus(data.gamefi)" value="GameFi" type="checkbox" id="gamefi" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" value="GameFi" type="checkbox" id="gamefi" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="gamefi">GameFi</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.metaverse" @change="chkstatus(data.metaverse)" value="Metaverse" type="checkbox" id="met.metaverse" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" value="Metaverse" type="checkbox" id="met.metaverse" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="met.metaverse">Metaverse</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.dsecurity" @change="chkstatus(data.dsecurity)" value="Data Security" type="checkbox" id="dsecurity" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" value="Data Security" type="checkbox" id="dsecurity" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="dsecurity">Data Security</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.infraprotocol" @change="chkstatus(data.infraprotocol)" value="Infrastucture Protocol" type="checkbox" id="inf.infraprotocol" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
+                                            <input v-model="data.otherArr" value="Infrastucture Protocol" type="checkbox" id="inf.infraprotocol" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none"  />
                                             <label for="inf.infraprotocol">Infrastucture Protocol</label>
                                         </div>
                                         <div class="flex flex-row space-x-2 items-center">
-                                            <input v-model="data.layerzero" @change="chkstatus(data.layerzero)" value="Layer Zero" type="checkbox" id="layerzero" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" />
+                                            <input v-model="data.otherArr" value="Layer Zero" type="checkbox" id="layerzero" class="w-5 h-5 accent-zinc-700 focus:accent-zinc-800 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" />
                                             <label for="layerzero">Layer Zero/Layer One Protocol</label>
                                         </div>
                                         <input v-model="data.other" type="text" id="other" class="w-full bg-zinc-700 focus:bg-zinc-800 px-4 py-2 text-zinc-400 placeholder:text-zinc-500 focus:border-0 focus:outline-none" placeholder="Other then what is mentioned above" />
@@ -203,7 +203,6 @@ async function smallFormSub(){
             method: 'POST',
             body: formdata,
             headers: {
-                // apikey: `noMx182WEgB63OKn`
                 apikey: `8OTQVvhkJkxTQLQ8`
             }
         })
@@ -220,6 +219,7 @@ async function smallFormSub(){
     }
 }
 function chkstatus(e:string){
+    console.log("hjj", e)
     data.otherArr.push(e)
 }
 async function onFileChange(e: any){
@@ -233,11 +233,12 @@ async function largeFormSub(){
     //     emptyFile.type = 'file';
     //     file.files = emptyFile.files;
     // }
+    // console.log("large madhe kay aahe", data.email,data.summary,data.other, JSON.stringify(data.otherArr), data.protocol, data.team_details, data.investors, data.stage,data.IDOtimeline,data.Tokenomics,data.sociallink)
         var formdata =new FormData();
         formdata.append("body[email]",data.email)
         formdata.append("body[summary]",data.summary)
         formdata.append("body[other]",data.other)
-        formdata.append("body[other_array[]]",JSON.stringify(data.otherArr))
+        formdata.append("body[other_array]",data.otherArr.toString())
         formdata.append("body[protocol]",data.protocol)
         formdata.append("body[team_details]",data.team_details)
         formdata.append("attachments[]", data.file)
@@ -254,7 +255,6 @@ async function largeFormSub(){
             body: formdata,
             headers: {
                 apikey: `8OTQVvhkJkxTQLQ8`
-                // apikey: `noMx182WEgB63OKn`
             }
         })
         toast.success("Form Submitted", {timeout: 2000});
@@ -269,7 +269,8 @@ async function largeFormSub(){
         data.stage="",
         data.IDOtimeline="",
         data.Tokenomics="",
-        data.sociallink=""
+        data.sociallink="",
+        mytoken.value=""
     }
     catch(error){
         toast.error("File size too large", {timeout: 2000});
