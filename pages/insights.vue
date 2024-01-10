@@ -13,7 +13,45 @@
                 <div class=" px-6 md:px-20 text-3xl md:text-6xl"><p>Insider Reports</p></div>
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Delving deep into the heart of the blockchain universe, our insider reports encapsulate data-driven research, analyses, and projections that guide our investment decisions. Here, we share these insights with you, offering a detailed and informed perspective on the market dynamics</p></div>
                 <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                    <!-- Card4 -->
+                    <a href="https://www.rakdao.com/web3-gaming-uae-program-2033/" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
+                        <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
+                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Comprehensive Report on Web3</p></div>
+                            <div class="flex w-full flex-row justify-between items-center">
+                                <div class="flex flex-col text-sm md:text-xl">
+                                    <div><p class="font-medium">Internal</p></div>
+                                    <div class="font-light">Reports</div>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 cursor-pointer">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                     <!-- Card3 -->
+                    <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">BRC20 Report</p></div>
+                            <div class="flex w-full flex-row justify-between items-center">
+                                <div class="flex flex-col text-sm md:text-xl">
+                                    <div><p class="font-medium">Internal</p></div>
+                                    <div class="font-light">Reports</div>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 ">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                    <!-- Card3.5 -->
                     <a href="https://docsend.com/view/yi8tec4itwm2jc5m" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
@@ -30,27 +68,8 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <!-- Card4 -->
-                    <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
-                        <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
-                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">BRC20 Report</p></div>
-                            <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-sm md:text-xl">
-                                    <div><p class="font-medium">Internal</p></div>
-                                    <div class="font-light">Reports</div>
-                                </div>
-                                <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 cursor-pointer">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
+                    </a>                    
+                </div>                
             </div>
             <!-- Section investment newsletters -->
             <div class="flex flex-col w-full md:w-4/5 h-auto mt-8 md:mt-24">
@@ -59,10 +78,10 @@
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card 6-->
                     <div class="relative w-full md:w-1/2 h-56 md:h-96">
-                        <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
+                        <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2023</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Annual <br>Newsletter2023<br> 2023</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl">
                                         <div><p class="font-medium">Investment</p></div>
@@ -78,6 +97,26 @@
                         </a>
                     </div>
                     <!-- Card 7-->
+                    <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
+                        <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                        <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2023</p></div>
+                            <div class="flex w-full flex-row justify-between items-center">
+                                <div class="flex flex-col text-sm md:text-xl">
+                                    <div><p class="font-medium">Investment</p></div>
+                                    <div class="font-light">Newsletter</div>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 cursor-pointer">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+                <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                    <!-- Card 8-->
                     <a href="https://docsend.com/view/v7xhcegrzvhq8jit" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                         <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">

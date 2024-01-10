@@ -80,7 +80,7 @@
                 <div class="w-full bg-gradient-to-b from-zinc-800/40 to-black/60 px-10 py-8 md:py-10 flex flex-row md:items-start space-x-5 md:space-x-0 items-center md:flex-col space-y-0 md:space-y-4 backdrop-blur-sm">
                     <div><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693208995/ecosystem%20support%20icons/chart-breakout-circle_k9m1ao.svg" alt=""></div>
                     <div class="flex flex-col">
-                      <div><p class="text-3xl md:text-6xl text-sky-500">100+</p></div>
+                      <div><p class="text-3xl md:text-6xl text-sky-500">120+</p></div>
                       <div><p class="hidden md:block">Projects in <br>Portfolio</p></div>
                       <div><p class="block md:hidden">Projects in Portfolio</p></div>
                     </div>

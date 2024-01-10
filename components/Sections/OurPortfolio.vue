@@ -65,7 +65,7 @@
         </div>
     </div>
     <div class="h-auto w-full hidden md:block">
-        <div class="shadow-b-md b bg-black flex h-auto md:h-64 w-full flex-col text-zinc-400 p-8">
+        <div class="shadow-b-md b bg-black flex h-auto md:h-80 w-full flex-col text-zinc-400 p-8">
           <div class="flex flex-wrap gap-2 h-auto w-full items-center ">
             <span  v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
               <div  class="flex h-full w-full flex-row space-x-2">
@@ -76,7 +76,7 @@
         </div>        
     </div>
   </div>
-  <div class="w-full flex px-8 md:px-0 -mt-4 md:mt-5"><p class="text-sm md:text-lg font-extralight">+100 WEB3 Projects</p></div>
+  <div class="w-full flex px-8 md:px-0 -mt-4 md:mt-5"><p class="text-sm md:text-lg font-extralight">+120 WEB3 Projects</p></div>
   <!-- <div><hr class="w-full border border-zinc-700"></div> -->
 </div>
 </template>
@@ -193,6 +193,7 @@ const categories:any = [
         path:`#infrastructure`,
         src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/infrastructure_vpb5l4.svg`,
         arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874600/Our%20Portfolio%20Logos/inspect_uwiy0w.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Casper_wgkync.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Smooth_Labs_vehm3e.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698825004/Our%20Portfolio%20Logos/Web3Auth_qzz6ya.svg`,},
@@ -201,7 +202,7 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698827454/Our%20Portfolio%20Logos/HAPI_tyrr5t.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Archway_sx4pvg.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Nulink_hylpxn.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823744/Our%20Portfolio%20Logos/Dojima_Network_mudbhh.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704871968/Our%20Portfolio%20Logos/Subsquid_mytrnv.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698828208/Our%20Portfolio%20Logos/Fractal_w4v0ef.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698737094/Our%20Portfolio%20Logos/Linera_yo4uhr.svg`,},
     ]
@@ -212,10 +213,21 @@ const categories:any = [
     path:`#ai`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/aiicon_anncxw.svg`,
     arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/chainml_o7jmbz.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874595/Our%20Portfolio%20Logos/Hyper_Oracle_pmoqu3.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/iMe_od1f7q.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Rejuve_w1wseh.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823743/Our%20Portfolio%20Logos/NuNet_lmniz8.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Sophia_Verse_ojvtdl.svg`,},            
+    ]
+},
+{
+    id:7,
+    name:`Ordinals`,
+    path:`#ordinals`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704878477/Vector_fiotox.svg`,
+    arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`,},        
     ]
 },
 ]

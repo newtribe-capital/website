@@ -58,7 +58,7 @@
         <a href="/" class="h-6 md:h-8 pl-6 md:pl-12 justify- md:justify-normal flex pr-6"><img class="h-full" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a>
         <div class="h-[1px] mt-4 w-full rounded-full bg-sky-400 block md:hidden"></div>
         <div class="flex flex-col w-full md:items-start items-center space-y-4 md:space-y-0 justify-start text-base  md:text-left mt-4 pl-6 md:pl-12 pr-6">
-          <div class="md:w-full "><p><span class="text-sky-500">Dubai</span> <span class="text-emerald-500">|</span>  Gate Avenue, Zone D - Level 1 Al Mustaqbal St - Dubai - United Arab Emirates</p></div>
+          <div class="md:w-full "><p><span class="text-sky-500">Dubai</span> <span class="text-emerald-500">|</span>  Office A, RAK DAO Business Centre, RAK BANK ROC Office, Ground Floor, Al Rifaa, Sheikh Mohammed Bin Zayed Road, Ras Al Khaimah</p></div>
           <div class="md:w-full "><p><span class="text-sky-500">Singapore</span> <span class="text-emerald-500"> |</span>  20A, Tanjong Pagar Road, Singapore (088443)</p></div>
         </div>
       </div>

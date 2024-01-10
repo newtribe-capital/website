@@ -26,6 +26,9 @@
                 <SectionsOurPresence />
             </div>
             <div class="relative pt-14 md:pt-28">                
+                <SectionsGathering />
+            </div>
+            <div class="relative pt-14 md:pt-28">                
                 <div class="absolute hidden md:block h-64 w-24 right-3 top-3"><div><p class="mt-10 text-6xl font-bold text-zinc-800 transform rotate-90 bg-">#CONNECT</p></div></div>
                 <SectionsContact />
             </div>

@@ -32,7 +32,7 @@
           <div  class="flex flex-col w-full h-auto bg-zinc-900/70 py-8 md:py-16">
             <!-- chendu blue -->
             <div data-aos="slide-right" data-aos-duration="600" data-aos-mirror="true" style="z-index: -999;" class="absolute bg-gradient-to-br hidden md:block blu from-sky-400 to-sky-950 rounded-full shadow-[20px_20px_20px_-4px_rgba(0,0,0,0.3)] shadow-sky-900/90 -top-24 left-0 md:left-16 w-56 h-56"></div>
-            <div class="px-8 flex justify-center md:px-24 mb-8 text-sm md:text-xl"><p>Trusted by over a 100+ Projects </p></div>
+            <div class="px-8 flex justify-center md:px-24 mb-8 text-sm md:text-xl"><p>Trusted by over a 120+ Projects </p></div>
             <!-- chendu green -->
             <div data-aos="slide-left" data-aos-duration="600" data-aos-mirror="true" style="z-index: -999;" class="absolute -bottom-24 md:right-16 hidden md:block w-44 h-44"><div class="h-full w-full bg-gradient-to-br from-emerald-400 to-black rounded-full shadow-[30px_35px_30px_-6px_rgba(0,0,0,0.3)] shadow-emerald-950/90"></div></div>
               <div class="absolute hidden md:block w-full -z-10 -top-20 overflow-hidden"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047233/svg%20items/Vector_3_Stroke_rangay_bae_rangy_wb3jgz.svg" alt="" class="w-full"></div>
