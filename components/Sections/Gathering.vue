@@ -7,7 +7,7 @@
                     <img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1704880956/cultureteam/gathering_tnkgh4.png" alt="">
                 </div>
                 <div class="w-full md:w-1/2 h-auto">
-                    <div><p class="w-full text-justify">NewTribe Gathering was a private, invite-only networking event focusing on ‘Network State’ and fostering a close-knit community of Web3 innovators believing in true decentralization and creating a global impact. </p></div>
+                    <div><p class="w-full text-justify">NewTribe Gathering is a private, invite-only networking event focusing on ‘Network State’ and fostering a close-knit community of Web3 innovators believing in true decentralization and creating a global impact. </p></div>
                     <div><p class="w-full text-justify mt-2 md:mt-5">The first edition of NewTribe Gathering witnessed 100+ C-suite executives, senior professionals, regulatory officials, and government representatives.  After the success of the first edition, the NewTribe team is all set to come up with further editions of the 'NewTribe Gathering' on a bigger and better scale!</p></div>
                 </div>
             </div>

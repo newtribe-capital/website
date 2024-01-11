@@ -228,6 +228,7 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704878477/Vector_fiotox.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`,},        
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704956187/Our%20Portfolio%20Logos/baxter_scyf1l.svg`,},        
     ]
 },
 ]

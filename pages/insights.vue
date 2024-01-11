@@ -81,7 +81,7 @@
                         <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Annual <br>Newsletter2023<br> 2023</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Annual <br>Newsletter<br> 2023</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl">
                                         <div><p class="font-medium">Investment</p></div>
