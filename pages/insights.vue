@@ -17,7 +17,7 @@
                     <a href="https://www.rakdao.com/web3-gaming-uae-program-2033/" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
                         <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Comprehensive Report on Web3</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Comprehensive Report on Web3 Gaming</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
