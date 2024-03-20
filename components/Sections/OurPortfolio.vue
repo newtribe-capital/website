@@ -1,6 +1,6 @@
 <template>
-<div  class="h-auto w-full bg-black mt-8 md:mt-16 py-12 px-0 text-sm text-zinc-400 md:px-20 md:text-lg">
-  <div class="flex w-full flex-col md:w-4/5">
+<div  class="h-full w-full bg-black mt-8 md:mt-16 py-12 px-0 text-sm text-zinc-400 md:px-20 md:text-lg">
+  <div class="flex w-full flex-col md:w-5/6">
     <div><p class="text-3xl md:text-6xl px-6">Our Portfolio</p></div>
     <div><p class="mt-5 w-full text-justify md:mt-10 px-6">At NewTribe Capital, our portfolio is a testimony to the future we envision. Spanning a diverse range of domains from the virtual expanses of Metaverse & NFTs, the explosive growth sectors of Gaming and DeFi, the foundational blocks of Infrastructure, to the advanced realms of AI and the promising avenues of Launchpads, our investments are strategic, forward-thinking, and encompass the full spectrum of the digital revolution.</p></div>
     <div class="mt-5 flex w-full flex-col md:mt-10 bg-black md:bg-zinc-700 py-4 px-0 md:px-8">
@@ -32,7 +32,7 @@
         </div>
         <!-- Mobile -->
         <div class="block md:hidden px-6">
-            <div class="flex w-full bg- flex-col mt-5 md:mt-10 bg-black">
+            <div class="flex w-full  flex-col mt-5 md:mt-10 bg-black">
                 <Swiper            
                 :modules="[SwiperAutoplay, SwiperEffectCards]"
                 :slides-per-view="1"
@@ -41,9 +41,9 @@
                   delay: 1500,
                   // disableOnInteraction: true
                 }" 
-                   class="w-full h- flex">                
+                   class="w-full  flex">                
                   <SwiperSlide v-for="(item, index) in categories" :key="index" class="h-auto w-full flex flex-col text-zinc-400 pb-1 shadow-b-md">
-                    <div class="flex flex-row h-16 items-center justify-between space-x-3 py-4 bg-zinc-700 px-4">
+                    <div class="flex flex-row h-12 items-center justify-between space-x-3 py-4 bg-zinc-700 px-4">
                         <div class="flex flex-row items-center space-x-3">
                             <div><img :src="item.src" alt=""></div>
                             <p>{{ item.name }}</p>
@@ -52,8 +52,8 @@
                             <Controls/>
                         </div>
                     </div>
-                    <div class="flex p-4 w-full h-auto flex-row flex-wrap gap-2">
-                      <div v-for="(it, i) in item.arr" :key="i" class="flex h-16 flex-row h-  md:px-0">
+                    <div class="flex p-4 w-full  h-auto flex-row flex-wrap gap-2">
+                      <div v-for="(it, i) in item.arr" :key="i" class="flex h-12 flex-row h-  md:px-0">
                         <div class="w-full h-full flex flex-row space-x-2">
                             <div class="h-full w-full bg-black"><img :src="it.src" alt="" class="h-full md:w-full"></div>
                         </div>
@@ -69,7 +69,7 @@
           <div class="flex flex-wrap gap-2 h-auto w-full items-center ">
             <span  v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
               <div  class="flex h-full w-full flex-row space-x-2">
-                <div class="h-20 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover"  /></div>
+                <div class="h-16 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover"  /></div>
               </div>
             </span>
           </div>
@@ -182,9 +182,14 @@ const categories:any = [
     arr:[
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698838396/Our%20Portfolio%20Logos/Equifi_cifnjp.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/FluidAI_e4zl9e.svg`,},            
-        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Portal_DeFi_kvrwnc.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/DeFi_lkaqcy.svg`,},            
-        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Ovix_l6qvpt.svg`,},            
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Ovix_l6qvpt.svg`,},  
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Portal_DeFi_kvrwnc.svg`,}, 
+
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/vpxo4mqayudbiuqjux32.svg`,},
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/ofq2hm8vbyujr9xcmf5o.svg`,},            
+            
+          
         ]
     },
     {
@@ -205,6 +210,15 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704871968/Our%20Portfolio%20Logos/Subsquid_mytrnv.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698828208/Our%20Portfolio%20Logos/Fractal_w4v0ef.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698737094/Our%20Portfolio%20Logos/Linera_yo4uhr.svg`,},
+
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921463/Our%20Portfolio%20Logos/March%20SR/ks8rmzsugitmi4rqlaoi.svg`,},
+
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/welxitssqwfpsxuiyype.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/zlxf2lilk8oxtteovqjv.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/z4ytpynafysrehsditez.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/dc4sbzyxlsu8z9lffsug.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/q78rflqy8xfipxqie2dv.svg`,},
+
     ]
 },
 {
@@ -228,7 +242,29 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704878477/Vector_fiotox.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`,},        
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704956187/Our%20Portfolio%20Logos/baxter_scyf1l.svg`,},        
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704956187/Our%20Portfolio%20Logos/baxter_scyf1l.svg`,},  
+
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/ewxu8cypprxm1wbnzrfc.svg`,},        
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/rj8qb9e4ld2xnngm5esy.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/ulvrmtkqguobqoykvp6x.svg`,},        
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921461/Our%20Portfolio%20Logos/March%20SR/hfcrm2ov7fwvhmrusfym.svg`,}, 
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/j8f9mo52eyoep2qrxado.svg`,},          
+
+      
+    ]
+},
+{
+    id:8,
+    name:`DePIN `,
+    path:`#depin`,
+    src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710926728/icons/cufq097pykue27eju1bc.svg`,
+    arr:[
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921463/Our%20Portfolio%20Logos/March%20SR/d2wnfsdgrxf6jhfngavd.svg`,},        
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921461/Our%20Portfolio%20Logos/March%20SR/qqp8y1qlubunqjbd68yb.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/j9yxi3rlb3habfpgihnz.svg`,},        
+        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/kkh7qwfilsig3a1mlneg.svg`,}, 
+
+      
     ]
 },
 ]
