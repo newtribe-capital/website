@@ -43,7 +43,7 @@
                 <div class="content h-full">
                   <div class="flex flex-row space-x-5 h-28 md:h-32 w-max overflow-hidden">
                     <div class="h-auto md:h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993814/ecosystem%20partners/Group_481662_opvtat.png" alt=""></div>
-                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994319/ecosystem%20partners/Group_481663_el8j9i.png" alt=""></div>
+                    <!-- <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994319/ecosystem%20partners/Group_481663_el8j9i.png" alt=""></div> -->
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650244/ecosystem%20partners/sosv_zrty6s.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650536/ecosystem%20partners/dfinity_pxjlnz.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698736989/ecosystem%20partners/RAK_DAO_Logo_1_qkjovy.png" alt=""></div>
