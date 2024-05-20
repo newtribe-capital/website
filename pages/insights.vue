@@ -76,6 +76,27 @@
                 <div class=" px-6 md:px-20 text-3xl md:text-6xl"><p>Investment Newsletters</p></div>
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Our Investment Newsletter serves as a beacon for blockchain and Web3 investors, shedding light on NewTribe's recent investments, our views on market developments, and exclusive takes on new projects. Subscribe and stay updated with our regular dispatches.</p></div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                   
+                   <!-- Card 6-->
+                   <div class="relative w-full md:w-1/2 h-56 md:h-96">
+                        <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q2 <br>Newsletter<br> 2024</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl">
+                                        <div><p class="font-medium">Investment</p></div>
+                                        <div class="font-light">Newsletter</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <!-- Card 6-->
                     <div class="relative w-full md:w-1/2 h-56 md:h-96">
                         <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
@@ -117,7 +138,7 @@
                 </div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card 8-->
-                    <a href="https://docsend.com/view/v7xhcegrzvhq8jit" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
+                    <!-- <a href="https://docsend.com/view/v7xhcegrzvhq8jit" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                         <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
                             <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q2 July <br> 2023</p></div>
@@ -133,7 +154,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a>                    
+                    </a>                     -->
                 </div>
             </div>
             <!-- Collaborations -->
@@ -231,6 +252,25 @@
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Opinions mold the future. Our Editorials section is a platform where NewTribe's thought leaders, analysts, and partners voice their perspectives on pressing topics, current events, and the overarching vision of the blockchain ecosystem</p></div>
                 <div class="h-auto flex flex-col px-6 md:px-20 mt-5 md:mt-10">
                     <div class="flex w-full flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-9">
+                        <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
+                            <a href="https://www.forbes.com/sites/irinaheaver/2024/05/13/brc20-ordinals-bitcoins-high-tech-leap-or-a-distraction/?sh=616c43ab5732" target="_blank" class="group w-full h-full">
+                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                                <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">BRC20 Ordinals: Bitcoin’s High-Tech Leap Or A Distraction?</p></div>
+                                    <div class="flex w-full flex-row justify-between items-center">
+                                        <div class="flex flex-col text-sm md:text-xl">
+                                            <div><p class="font-medium">5 min read</p></div>
+                                            <div class="font-light">May 13, 2024</div>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                         <!-- Card -->
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
                             <a href="https://www.bloomberg.com/press-releases/2022-05-11/uae-based-newtribe-capital-to-invest-five-million-usd-in-blockchain-near-projects" target="_blank" class="group w-full h-full">

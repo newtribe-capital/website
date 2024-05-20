@@ -218,6 +218,7 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/z4ytpynafysrehsditez.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/dc4sbzyxlsu8z9lffsug.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/q78rflqy8xfipxqie2dv.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Particle_Network_ezdthz.svg`,},
 
     ]
 },
@@ -228,11 +229,14 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/aiicon_anncxw.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/chainml_o7jmbz.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874595/Our%20Portfolio%20Logos/Hyper_Oracle_pmoqu3.svg`,},
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874595/Our%20Portfolio%20Logos/Hyper_Oracle_pmoqu3.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Ora_v2tnoq.svg`,},
+
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/iMe_od1f7q.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Rejuve_w1wseh.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823743/Our%20Portfolio%20Logos/NuNet_lmniz8.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Sophia_Verse_ojvtdl.svg`,},            
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Sophia_Verse_ojvtdl.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926692/Our%20Portfolio%20Logos/May%20SR/Kip_protocol_bk3cxf.svg`,},            
     ]
 },
 {
@@ -242,16 +246,18 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704878477/Vector_fiotox.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`,},        
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704956187/Our%20Portfolio%20Logos/baxter_scyf1l.svg`,},  
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704956187/Our%20Portfolio%20Logos/baxter_scyf1l.svg`,},  
 
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/ewxu8cypprxm1wbnzrfc.svg`,},        
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/rj8qb9e4ld2xnngm5esy.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/ulvrmtkqguobqoykvp6x.svg`,},        
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921461/Our%20Portfolio%20Logos/March%20SR/hfcrm2ov7fwvhmrusfym.svg`,}, 
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/j8f9mo52eyoep2qrxado.svg`,},          
-
-      
-    ]
+        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/BEVM_x3amx0.svg`},
+        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/Darewise_v34crb.svg`},
+        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Runes_Terminal_fzturd.svg`},
+        
+      ]
 },
 {
     id:8,
