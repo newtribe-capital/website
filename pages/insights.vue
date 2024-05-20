@@ -253,6 +253,26 @@
                 <div class="h-auto flex flex-col px-6 md:px-20 mt-5 md:mt-10">
                     <div class="flex w-full flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-9">
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
+                            <a href="https://medium.com/@NewTribeCap/newtribe-capital-event-recap-from-token2049-dubai-119e792634fa" target="_blank" class="group w-full h-full">
+                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                                <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Token2049 Event Recap</p></div>
+                                    <div class="flex w-full flex-row justify-between items-center">
+                                        <div class="flex flex-col text-sm md:text-xl">
+                                            <div><p class="font-medium">3 min read</p></div>
+                                            <div class="font-light">May 20, 2024</div>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Card -->
+                        <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
                             <a href="https://www.forbes.com/sites/irinaheaver/2024/05/13/brc20-ordinals-bitcoins-high-tech-leap-or-a-distraction/?sh=616c43ab5732" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
@@ -271,6 +291,9 @@
                                 </div>
                             </a>
                         </div>
+                    </div>
+                        <div class="flex w-full flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-9 mt-4">
+
                         <!-- Card -->
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
                             <a href="https://www.bloomberg.com/press-releases/2022-05-11/uae-based-newtribe-capital-to-invest-five-million-usd-in-blockchain-near-projects" target="_blank" class="group w-full h-full">
