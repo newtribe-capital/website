@@ -68,7 +68,25 @@
                                 </div>
                             </div>
                         </div>
-                    </a>                    
+                    </a>  
+                    <!-- Card3.5 -->
+                    <a href="https://docs.google.com/document/d/1MxrJxoY_SlJJ27nguovBe-kzhvFyslNcWzEdWQm59ZI" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
+                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Report on Layer one Ecosystems</p></div>
+                            <div class="flex w-full flex-row justify-between items-center">
+                                <div class="flex flex-col text-sm md:text-xl">
+                                    <div><p class="font-medium">Internal</p></div>
+                                    <div class="font-light">Reports</div>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 ">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>                   
                 </div>                
             </div>
             <!-- Section investment newsletters -->
