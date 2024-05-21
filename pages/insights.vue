@@ -13,11 +13,30 @@
                 <div class=" px-6 md:px-20 text-3xl md:text-6xl"><p>Insider Reports</p></div>
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Delving deep into the heart of the blockchain universe, our insider reports encapsulate data-driven research, analyses, and projections that guide our investment decisions. Here, we share these insights with you, offering a detailed and informed perspective on the market dynamics</p></div>
                 <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                    
+                    <!-- Card3.5 -->
+                    <a href="https://docs.google.com/document/d/1MxrJxoY_SlJJ27nguovBe-kzhvFyslNcWzEdWQm59ZI" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
+                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Report on Layer one Ecosystems</p></div>
+                            <div class="flex w-full flex-row justify-between items-center">
+                                <div class="flex flex-col text-sm md:text-xl">
+                                    <div><p class="font-medium">Internal</p></div>
+                                    <div class="font-light">Reports</div>
+                                </div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 ">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                     <!-- Card4 -->
                     <a href="https://www.rakdao.com/web3-gaming-uae-program-2033/" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
-                        <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
+                        <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Comprehensive Report on Web3 Gaming</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Comprehensive Report on Web3 Gaming</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
@@ -31,11 +50,14 @@
                             </div>
                         </div>
                     </a>
-                    <!-- Card3 -->
-                    <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                   
+                </div>
+                <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                     <!-- Card3 -->
+                     <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">BRC20 Report</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">BRC20 Report</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
@@ -49,13 +71,11 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     <!-- Card3.5 -->
                     <a href="https://docsend.com/view/yi8tec4itwm2jc5m" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Real World Tokenization Report</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Real World Tokenization Report</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
@@ -69,24 +89,7 @@
                             </div>
                         </div>
                     </a>  
-                    <!-- Card3.5 -->
-                    <a href="https://docs.google.com/document/d/1MxrJxoY_SlJJ27nguovBe-kzhvFyslNcWzEdWQm59ZI" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
-                        <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
-                        <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-semibold">Report on Layer one Ecosystems</p></div>
-                            <div class="flex w-full flex-row justify-between items-center">
-                                <div class="flex flex-col text-sm md:text-xl">
-                                    <div><p class="font-medium">Internal</p></div>
-                                    <div class="font-light">Reports</div>
-                                </div>
-                                <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9 ">
-                                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </a>                   
+                                       
                 </div>                
             </div>
             <!-- Section investment newsletters -->
@@ -100,7 +103,7 @@
                         <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q2 <br>Newsletter<br> 2024</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Q2 <br>Newsletter<br> 2024</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl">
                                         <div><p class="font-medium">Investment</p></div>
@@ -120,7 +123,7 @@
                         <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Annual <br>Newsletter<br> 2023</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Annual <br>Newsletter<br> 2023</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl">
                                         <div><p class="font-medium">Investment</p></div>
@@ -142,7 +145,7 @@
                     <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                         <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-6xl font-bold">Q3 Sept <br> 2023</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Q3 Sept <br> 2023</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Investment</p></div>
@@ -188,7 +191,7 @@
                         <a href="https://x.com/NewTribeCap/status/1717449314115702987?s=20 " target="_blank" class="w-full h-full">                            
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">RAK Digital<br> Assets Oasis</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">RAK Digital<br> Assets Oasis</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl font-light">
                                         <div><p class="font-">ecosystem #partnership</p></div>
@@ -208,7 +211,7 @@
                         <a  href="https://x.com/NewTribeCap/status/1716419249689018766?s=20" target="_blank" class="group w-full h-full">                            
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Conflux X <br> NewTribe</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Conflux X <br> NewTribe</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl font-light">
                                         <div><p class="font-">ecosystem #partnership</p></div>
@@ -230,7 +233,7 @@
                         <a href="https://twitter.com/newtribecap/status/1700084460648067110?s=46&t=J5KSX72vtn7yywUEMqltbQ" target="_blank" class="w-full h-full">                            
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg7_g9kxns.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Brinc x  <br> NewTribe</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Brinc x  <br> NewTribe</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl font-light">
                                         <div><p class="font-">strategic partnership </p></div>
@@ -250,7 +253,7 @@
                         <a  href="https://twitter.com/NewTribeCap/status/1668930505562021890?s=20" target="_blank" class="group w-full h-full">                            
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
-                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-bold">Pitchtalk x <br> NewTribe</p></div>
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Pitchtalk x <br> NewTribe</p></div>
                                 <div class="flex w-full flex-row justify-between items-center">
                                     <div class="flex flex-col text-sm md:text-xl font-light">
                                         <div><p class="font-">ecosystem #partnership </p></div>
@@ -277,7 +280,7 @@
                             <a href="https://medium.com/@NewTribeCap/newtribe-capital-event-recap-from-token2049-dubai-119e792634fa" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Token2049 Event Recap</p></div>
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Token2049 Event Recap</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">3 min read</p></div>
@@ -297,7 +300,7 @@
                             <a href="https://www.forbes.com/sites/irinaheaver/2024/05/13/brc20-ordinals-bitcoins-high-tech-leap-or-a-distraction/?sh=616c43ab5732" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-full"><p class="text-3xl md:text-5xl font-semibold">BRC20 Ordinals: Bitcoin’s High‑Tech Leap Or A Distraction?</p></div>
+                                    <div class="w-full md:w-full"><p class="text-3xl md:text-4xl font-semibold">BRC20 Ordinals: Bitcoin’s High‑Tech Leap Or A Distraction?</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">5 min read</p></div>
@@ -320,7 +323,7 @@
                             <a href="https://www.bloomberg.com/press-releases/2022-05-11/uae-based-newtribe-capital-to-invest-five-million-usd-in-blockchain-near-projects" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">NTC invests in NEAR</p></div>
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">NTC invests in NEAR</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">4 min read</p></div>
@@ -340,7 +343,7 @@
                             <a href="https://medium.com/@NewTribeCap/transforming-the-venture-capital-world-741f81b864f5" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Transforming the Venture Capital</p></div>
+                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Transforming the Venture Capital</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">6 min read</p></div>
