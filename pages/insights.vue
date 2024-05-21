@@ -117,6 +117,9 @@
                             </div>
                         </a>
                     </div>
+                    </div>
+                    <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+
                     <!-- Card 7-->
                     <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
@@ -254,7 +257,7 @@
                     <div class="flex w-full flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-9">
                         <div data-aos="fade-right" data-aos-duration="400" class="relative w-full md:w-1/2 h-56 md:h-96">
                             <a href="https://medium.com/@NewTribeCap/newtribe-capital-event-recap-from-token2049-dubai-119e792634fa" target="_blank" class="group w-full h-full">
-                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
+                                <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
                                     <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">Token2049 Event Recap</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
@@ -276,7 +279,7 @@
                             <a href="https://www.forbes.com/sites/irinaheaver/2024/05/13/brc20-ordinals-bitcoins-high-tech-leap-or-a-distraction/?sh=616c43ab5732" target="_blank" class="group w-full h-full">
                                 <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                                 <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                                    <div class="w-full md:w-2/3"><p class="text-3xl md:text-5xl font-semibold">BRC20 Ordinals: Bitcoin’s High-Tech Leap Or A Distraction?</p></div>
+                                    <div class="w-full md:w-full"><p class="text-3xl md:text-5xl font-semibold">BRC20 Ordinals: Bitcoin’s High‑Tech Leap Or A Distraction?</p></div>
                                     <div class="flex w-full flex-row justify-between items-center">
                                         <div class="flex flex-col text-sm md:text-xl">
                                             <div><p class="font-medium">5 min read</p></div>
