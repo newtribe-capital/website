@@ -159,6 +159,8 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073792/Our%20Portfolio%20Logos/Poolz_w1a2sa.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073793/Our%20Portfolio%20Logos/Suipad_gvtmg2.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073793/Our%20Portfolio%20Logos/Singularity_DAO_d6nn07.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734953637/Our%20Portfolio%20Logos/Dec%20SR/Commonwealth_ig3bds.svg`,},
+
     ]
 },
 {
@@ -181,9 +183,9 @@ const categories:any = [
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/defi_hu83rh.svg`,
     arr:[
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698838396/Our%20Portfolio%20Logos/Equifi_cifnjp.svg`,},            
-        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/FluidAI_e4zl9e.svg`,},            
+        // { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/FluidAI_e4zl9e.svg`,},            
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073759/Our%20Portfolio%20Logos/DeFi_lkaqcy.svg`,},            
-        { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Ovix_l6qvpt.svg`,},  
+        // { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Ovix_l6qvpt.svg`,},  
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073760/Our%20Portfolio%20Logos/Portal_DeFi_kvrwnc.svg`,}, 
 
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/vpxo4mqayudbiuqjux32.svg`,},
@@ -219,6 +221,12 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/dc4sbzyxlsu8z9lffsug.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/q78rflqy8xfipxqie2dv.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Particle_Network_ezdthz.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/Movement_Labs_pht9qd.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/NodeOps_czcf9w.svg`,},
+        
+
+
+
 
     ]
 },
@@ -236,13 +244,26 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Rejuve_w1wseh.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823743/Our%20Portfolio%20Logos/NuNet_lmniz8.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/Sophia_Verse_ojvtdl.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926692/Our%20Portfolio%20Logos/May%20SR/Kip_protocol_bk3cxf.svg`,},            
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926692/Our%20Portfolio%20Logos/May%20SR/Kip_protocol_bk3cxf.svg`,},    
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/Bluwhale_z1jkpb.svg`,}, 
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/UXLINK_baj8zp.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921463/Our%20Portfolio%20Logos/March%20SR/d2wnfsdgrxf6jhfngavd.svg`,}, 
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/0G_Labs_pubrcm.svg`,}, 
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/GullNetwork_m00bhv.svg`,}, 
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/Rivalz_ithov1.svg`,},        
+       
+       
+       
+          
+            
+           
+        
     ]
 },
 {
     id:7,
-    name:`Ordinals`,
-    path:`#ordinals`,
+    name:`BTC Economy`,
+    path:`#btceconomy`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704878477/Vector_fiotox.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`,},        
@@ -255,7 +276,9 @@ const categories:any = [
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/j8f9mo52eyoep2qrxado.svg`,},          
         { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/BEVM_x3amx0.svg`},
         { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/Darewise_v34crb.svg`},
-        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Runes_Terminal_fzturd.svg`},
+        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/BTC_terminal_oczerd.svg`},
+        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/Bitlayer_zx7guf.svg`},
+
         
       ]
 },
@@ -265,7 +288,6 @@ const categories:any = [
     path:`#depin`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710926728/icons/cufq097pykue27eju1bc.svg`,
     arr:[
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921463/Our%20Portfolio%20Logos/March%20SR/d2wnfsdgrxf6jhfngavd.svg`,},        
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921461/Our%20Portfolio%20Logos/March%20SR/qqp8y1qlubunqjbd68yb.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/j9yxi3rlb3habfpgihnz.svg`,},        
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/kkh7qwfilsig3a1mlneg.svg`,}, 

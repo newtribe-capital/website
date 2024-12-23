@@ -98,6 +98,28 @@
                 <div class="w-full md:w-2/3 px-6 md:px-20 mt-5 md:mt-10"><p>Our Investment Newsletter serves as a beacon for blockchain and Web3 investors, shedding light on NewTribe's recent investments, our views on market developments, and exclusive takes on new projects. Subscribe and stay updated with our regular dispatches.</p></div>
                 <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                    
+
+                    <!-- Card 6-->
+                   <div class="relative w-full md:w-1/2 h-56 md:h-96">
+                        <a href=" https://docsend.com/view/qd83zdgr3k2fhbeb" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
+                            <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
+                            <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
+                                <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-bold">Q4 <br>Newsletter<br> 2024</p></div>
+                                <div class="flex w-full flex-row justify-between items-center">
+                                    <div class="flex flex-col text-sm md:text-xl">
+                                        <div><p class="font-medium">Investment</p></div>
+                                        <div class="font-light">Newsletter</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="group-hover:scale-125 w-5 md:w-9 h-5 md:h-9">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                    <!-- Card 6-->
                    <div class="relative w-full md:w-1/2 h-56 md:h-96">
                         <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
@@ -119,7 +141,12 @@
                         </a>
                     </div>
                     <!-- Card 6-->
-                    <div class="relative w-full md:w-1/2 h-56 md:h-96">
+                   
+                    </div>
+
+                    
+                    <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
+                        <div class="relative w-full md:w-1/2 h-56 md:h-96">
                         <a href="https://docsend.com/view/zw8z8dh2fjxp5tq5" target="_blank" data-aos="fade-right" data-aos-duration="400" class="group w-full h-full">
                             <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>
                             <div class="absolute top-0 text-zinc-900 group-hover:text-zinc-600 flex p-9 flex-col justify-between h-full w-full">
@@ -138,9 +165,6 @@
                             </div>
                         </a>
                     </div>
-                    </div>
-                    <div class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
-
                     <!-- Card 7-->
                     <a href="https://docsend.com/view/y4eh6jhi3vgt7hej" target="_blank" data-aos="fade-right" data-aos-duration="400" class="relative group w-full md:w-1/2 h-56 md:h-96 ">
                         <div class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg6_tcctwv.png" alt=""></div>

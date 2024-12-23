@@ -47,8 +47,7 @@
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650244/ecosystem%20partners/sosv_zrty6s.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698650536/ecosystem%20partners/dfinity_pxjlnz.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698736989/ecosystem%20partners/RAK_DAO_Logo_1_qkjovy.png" alt=""></div>
-                    <!-- <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698736989/ecosystem%20partners/Cointelegraph_Acceleration_nrzc8b.png" alt=""></div> -->
-                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993810/ecosystem%20partners/Group_481661_iqghdf.png" alt=""></div>
+                    <!-- <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993810/ecosystem%20partners/Group_481661_iqghdf.png" alt=""></div> -->
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994354/ecosystem%20partners/Group_481668_wsz1lb.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994348/ecosystem%20partners/Group_481664_jzhxu3.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994351/ecosystem%20partners/Group_481666_ofj1ja.png" alt=""></div>
@@ -56,6 +55,13 @@
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994353/ecosystem%20partners/Group_481659_nsxrof.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693993738/ecosystem%20partners/Group_481660_z6el6d.png" alt=""></div>
                     <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693994350/ecosystem%20partners/Group_481665_fqfu9w.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734952285/ecosystem%20partners/HUB71_ju9esd.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1698736989/ecosystem%20partners/Cointelegraph_Acceleration_nrzc8b.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734952286/ecosystem%20partners/Outlier_Ventures_bgbojj.png" alt=""></div>
+                    <div class="h-full"><img class="h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734952287/ecosystem%20partners/Foundership_d7g1fc.png" alt=""></div>
+
+
+
                   </div>
                 </div>
               </div>
