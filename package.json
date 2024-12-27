@@ -14,18 +14,19 @@
     "autoprefixer": "^10.4.15",
     "nuxt": "^3.6.5",
     "nuxt-gtag": "^1.0.0",
+    "nuxt-particles": "^0.3.0",
     "postcss": "^8.4.28",
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
     "-": "^0.0.1",
+    "@tsparticles/vue3": "^3.0.1",
     "aos": "^2.3.4",
     "nuxt-swiper": "^1.2.2",
     "save": "^2.9.0",
     "tsparticles-slim": "^2.12.0",
     "vue-toastification": "^2.0.0-rc.5",
-    "vue-turnstile": "^1.0.5",
-    "vue3-particles": "^2.12.0"
+    "vue-turnstile": "^1.0.5"
   },
   "overrides": {
     "vue": "latest"

@@ -1,9 +1,15 @@
 <template>
-    <vue-particles
-        id="tsparticles"
-        :particlesInit="particlesInit"
-        :particlesLoaded="particlesLoaded"
-        :options="{
+    <NuxtParticles
+    id="tsparticles"
+    :options="options"
+    @load="onLoad"
+  >
+  </NuxtParticles>
+</template>
+<script setup lang="ts">
+
+import type { Container } from 'tsparticles-engine'
+const options = {
                 fullScreen: {
                 enable: false,
                 zIndex: -1
@@ -78,18 +84,10 @@
                     }
                 },
                 detectRetina: true
-            }"
-    />
-</template>
-<script setup>
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+            }
 
-const particlesInit = async engine => {
-//await loadFull(engine);
-await loadSlim(engine);
-};
-
-const particlesLoaded = async container => {
-console.log("Particles container loaded", container);
-};
+const onLoad = (container: Container) => {
+  container.pause()
+  setTimeout(() => container.play(), 2000)
+}
 </script>

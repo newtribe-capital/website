@@ -37,19 +37,25 @@ export default defineNuxtConfig({
       }],
     }
   },
+
   css: [
     '@/assets/css/style.css',
   ],
-  modules: ['nuxt-swiper', 'nuxt-gtag'],
+
+  modules: ['nuxt-swiper', 'nuxt-gtag',  'nuxt-particles'],
+
   // plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
   gtag: {
     id: 'G-CHGZ5WJS4N'
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  build:{transpile:['vue-toastification']}
+
+  build:{transpile:['vue-toastification']},
+  compatibilityDate: '2024-12-26',
 })
