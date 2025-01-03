@@ -57,5 +57,4 @@ export default defineNuxtConfig({
   },
 
   build:{transpile:['vue-toastification']},
-  compatibilityDate: '2024-12-26',
 })
