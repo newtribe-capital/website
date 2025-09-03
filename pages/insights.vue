@@ -15,10 +15,10 @@
                 <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                     
                     <!-- Card3.5 -->
-                    <a href="https://docs.google.com/document/d/1MxrJxoY_SlJJ27nguovBe-kzhvFyslNcWzEdWQm59ZI" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                    <a href="https://neoslegal.co/founders-guide-to-uae-crypto-laws-2025-edition/" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Report on Layer&nbsp;1 Ecosystems</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Founder’s Guide to UAE Crypto Laws</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
@@ -33,10 +33,10 @@
                         </div>
                     </a>
                     <!-- Card4 -->
-                    <a href="https://www.rakdao.com/web3-gaming-uae-program-2033/" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
+                    <a href="https://neoslegal.co/the-art-of-fundraising-in-the-uae-juliet-su-newtribe-capital/" target="_blank" class="relative w-full md:w-1/2 h-56 md:h-96 group">
                         <div  class="overflow-hidden h-full w-full"><img class="w-full h-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Comprehensive Report on Web3 Gaming</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">The Art of Fundraising in the UAE</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
@@ -54,10 +54,10 @@
                 </div>
                 <div data-aos="fade-right" data-aos-duration="800" class="h-auto space-x-0 md:space-x-9 space-y-5 md:space-y-0 flex flex-col md:flex-row px-6 md:px-20 mt-5 md:mt-10">
                      <!-- Card3 -->
-                     <a href="https://docsend.com/view/am4s6dzjgdakiy56" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                     <a href="https://neoslegal.co/top-25-most-active-international-vcs-in-web3/" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478155/insights/bg1_dydsiq.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">BRC20 Report</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">25 Most Active International VCs in 2024</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>
@@ -72,10 +72,10 @@
                         </div>
                     </a>
                     <!-- Card3.5 -->
-                    <a href="https://docsend.com/view/yi8tec4itwm2jc5m" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
+                    <a href="https://www.forbes.com/sites/irinaheaver/2025/07/22/how-to-launch-an-rwa-tokenization-project-in-dubai-in-2025/" target="_blank" class="relative group cursor-pointer w-full md:w-1/2 h-56 md:h-96 bg-">
                         <div  class=" h-full w-full"><img class="w-full h-full object-cover " src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693478154/insights/bg2_qzlczt.png" alt=""></div>
                         <div class="absolute top-0 text-white group-hover:text-zinc-200 flex p-9 flex-col justify-between h-full w-full">
-                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">Real World Tokenization Report</p></div>
+                            <div class="w-full md:w-2/3"><p class="text-3xl md:text-4xl font-semibold">How To Launch An RWA Tokenization Project In Dubai In 2025</p></div>
                             <div class="flex w-full flex-row justify-between items-center">
                                 <div class="flex flex-col text-sm md:text-xl">
                                     <div><p class="font-medium">Internal</p></div>

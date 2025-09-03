@@ -49,9 +49,9 @@
                       disableOnInteraction: false
                     }" class="w-full h-full flex items-end mb-4">
                     <SwiperSlide v-for="(item, index) in cards" :key="index" class="h- flex items-end pb-1 shadow-b-md">
-                      <div class="flex w-56 bg-zinc-700/80 backdrop-blur-sm h-28 justify-center items-center">
-                        <div class="flex w-1/2 flex-col h-1/2 text-slate-600 md:px-0">
-                          <img :src="item.link" alt="" class="h-full">
+                      <div class="flex w-72 bg-zinc-700/80 backdrop-blur-sm h-28 justify-center items-center">
+                        <div class="flex w-full flex-col h-1/2 text-slate-600 md:px-0">
+                          <img :src="item.link" alt="" class="h-full px-4">
                         </div>
                       </div>
                     </SwiperSlide>
@@ -86,7 +86,7 @@
                     <SwiperSlide v-for="(item, index) in cards" :key="index" class="\shadow-b-md">
                       <div class="flex w-full h-full justify-center items-center">
                         <div class="flex w-full flex-col justify-center h-16 text-slate-600 md:px-0">
-                          <img :src="item.link" alt="" class="h-1/2">
+                          <img :src="item.link" alt="" class="h-1/3 px-4">
                         </div>
                       </div>
                     </SwiperSlide>
@@ -165,7 +165,7 @@
             </a>
             <!-- mobile -->
             <div class="w-full block md:hidden">
-                <a name="about" class="flex flex-col text-justify w-full relative overflow-hidden px-6 md:px-20">
+                <a name="about" class="flex flex-col text-justify w-full relative overflow-hidden px-6 md:px-10">
                     <div class="flex justify-end items-end -z-10 absolute -right-32 h-[330px] w-full"><img src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/greenball_tdc2cz.svg" alt="" class="w-1/2"></div>
                     <div><p class="text-3xl font-extralight mb-5">About us</p></div>
                     <span v-for="(item, index) in items" :key="index" class="mb-3">
@@ -218,76 +218,76 @@ const cards : {
   }[]=[
     {
       id: 1,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/Secondlive_mutigi.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756805965/Our%20Portfolio%20Logos/Sept%20SR/Logo_1_mabvio.png`,
     },
+    // {
+    //   id: 2,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/archway_axkfsm.svg`,
+    // },
     {
       id: 2,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/archway_axkfsm.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572083/projects/intution_jja7lg.svg`,
     },
     {
       id: 3,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572083/projects/intution_jja7lg.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756885621/Our%20Portfolio%20Logos/Sept%20SR/uxlink_husmep.png`,
     },
-    // {
-    //   id: 4,
-    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572082/projects/him_rpdxot.svg`,
-    // },
-    // {
-    //   id: 4,
-    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693568370/projects/sinverse_i9cbwu.png`,
-    // },
-    // {
-    //   id: 5,
-    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572082/projects/sinverse_mrw6kf.svg`,
-    // },
+    {
+      id: 4,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756885779/Our%20Portfolio%20Logos/Sept%20SR/Xion-Logo-White_sdw0gn.png`,
+    },
+    {
+      id: 5,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756886025/Our%20Portfolio%20Logos/Sept%20SR/mindnetwork_pixrti.png`,
+    },
     {
       id: 6,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572073/projects/suipad_l2gepf.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756807678/Our%20Portfolio%20Logos/Sept%20SR/cookielogo_j4dtni.png`,
     },
     {
       id: 7,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572073/projects/enginesoffury_jft24g.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756886138/Our%20Portfolio%20Logos/Sept%20SR/particlenetwork_laiuli.png`,
     },
     {
       id: 8,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698838660/projects/nuxlink_circne.svg`,
-    },
-    {
-      id: 8,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572069/projects/ime_czoerr.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756886282/Our%20Portfolio%20Logos/Sept%20SR/linera_fkwusu.png`,
     },
     {
       id: 9,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/smooth_qixrzr.svg`,
+      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756886381/Our%20Portfolio%20Logos/Sept%20SR/nodeops_nn27ab.svg`,
     },
-    {
-      id: 10,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572069/projects/readygames_rgsbpc.svg`,
-    },
-    {
-      id: 11,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572084/projects/casper_ple4up.svg`,
-    },
-    {
-      id: 12,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572081/projects/ovix_gughcy.svg`,
-    },
-    {
-      id: 13,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/singularitydao_fo3jd6.svg`,
-    },
-    {
-      id: 14,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572080/projects/bondly_rogygt.svg`,
-    },
-    {
-      id: 15,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572072/projects/poolz_yxiail.svg`,
-    },
-    {
-      id: 16,
-      link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572080/projects/blockus_oxkb2r.svg`,
-    },
+    // {
+    //   id: 9,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/smooth_qixrzr.svg`,
+    // },
+    // {
+    //   id: 10,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572069/projects/readygames_rgsbpc.svg`,
+    // },
+    // {
+    //   id: 11,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572084/projects/casper_ple4up.svg`,
+    // },
+    // {
+    //   id: 12,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572081/projects/ovix_gughcy.svg`,
+    // },
+    // {
+    //   id: 13,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572070/projects/singularitydao_fo3jd6.svg`,
+    // },
+    // {
+    //   id: 14,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572080/projects/bondly_rogygt.svg`,
+    // },
+    // {
+    //   id: 15,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572072/projects/poolz_yxiail.svg`,
+    // },
+    // {
+    //   id: 16,
+    //   link:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693572080/projects/blockus_oxkb2r.svg`,
+    // },
 ]
 const activeAccoID= ref(0)
 const isOpen= ref(false)

@@ -6,7 +6,7 @@
     <div class="mt-5 flex w-full flex-col md:mt-10 bg-black md:bg-zinc-700 py-4 px-0 md:px-8">
         <!-- Desktop -->
         <div class="hidden md:block">
-            <div class="flex flex-row space-x-8 w-full justify- items-center">
+            <div class="flex flex-row space-x-8 w-full  items-center">
               <span v-for="(item, index) in categories" :key="index" class="">
                 <div @click="selectcategories(item.id)" class="flex flex-row cursor-pointer space-x-2 items-center">
                   <div><img :src="item.src" alt=""></div>
@@ -69,7 +69,7 @@
           <div class="flex flex-wrap gap-2 h-auto w-full items-center ">
             <span  v-for="(it, i) in cat.arr" :key="i" class="md:px-0">
               <div  class="flex h-full w-full flex-row space-x-2">
-                <div class="h-16 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover"  /></div>
+                <div class="h-14 w-full"><img :src="it.src" alt="" class="h-full w-full object-cover"  /></div>
               </div>
             </span>
           </div>
@@ -134,7 +134,7 @@ onMounted( () =>  {
       if (i.value > categories.length) {
         i.value = 1;
       }
-    }, 4000);
+    }, 6000);
 
 })
 const categories:any = [
@@ -202,7 +202,7 @@ const categories:any = [
         arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874600/Our%20Portfolio%20Logos/inspect_uwiy0w.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073778/Our%20Portfolio%20Logos/Casper_wgkync.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Smooth_Labs_vehm3e.svg`,},
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073783/Our%20Portfolio%20Logos/Smooth_Labs_vehm3e.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698825004/Our%20Portfolio%20Logos/Web3Auth_qzz6ya.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073780/Our%20Portfolio%20Logos/Kilt_l1ipca.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073780/Our%20Portfolio%20Logos/Intuition_kwdqiz.svg`,},
@@ -216,13 +216,11 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921463/Our%20Portfolio%20Logos/March%20SR/ks8rmzsugitmi4rqlaoi.svg`,},
 
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/welxitssqwfpsxuiyype.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/zlxf2lilk8oxtteovqjv.svg`,},
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/zlxf2lilk8oxtteovqjv.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/z4ytpynafysrehsditez.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/dc4sbzyxlsu8z9lffsug.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921459/Our%20Portfolio%20Logos/March%20SR/q78rflqy8xfipxqie2dv.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Particle_Network_ezdthz.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/Movement_Labs_pht9qd.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/NodeOps_czcf9w.svg`,},
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/Movement_Labs_pht9qd.svg`,},
         
 
 
@@ -232,13 +230,14 @@ const categories:any = [
 },
 {
     id:6,
-    name:`AI`,
+    name:`AI & Social Economy`,
     path:`#ai`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1693647842/client%20categories/aiicon_anncxw.svg`,
     arr:[
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/chainml_o7jmbz.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756805965/Our%20Portfolio%20Logos/Sept%20SR/Logo_1_mabvio.png`,}, 
         // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874595/Our%20Portfolio%20Logos/Hyper_Oracle_pmoqu3.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1715926693/Our%20Portfolio%20Logos/May%20SR/Ora_v2tnoq.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756807678/Our%20Portfolio%20Logos/Sept%20SR/cookielogo_j4dtni.png`},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1756806330/Our%20Portfolio%20Logos/Sept%20SR/Logo_horizontal_white_dolugj.png`},       
 
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1694073743/Our%20Portfolio%20Logos/iMe_od1f7q.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1698823742/Our%20Portfolio%20Logos/Rejuve_w1wseh.svg`,},
@@ -249,7 +248,7 @@ const categories:any = [
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/UXLINK_baj8zp.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921463/Our%20Portfolio%20Logos/March%20SR/d2wnfsdgrxf6jhfngavd.svg`,}, 
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/0G_Labs_pubrcm.svg`,}, 
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/GullNetwork_m00bhv.svg`,}, 
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/GullNetwork_m00bhv.svg`,}, 
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951437/Our%20Portfolio%20Logos/Dec%20SR/Rivalz_ithov1.svg`,},        
        
        
@@ -266,17 +265,16 @@ const categories:any = [
     path:`#btceconomy`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704878477/Vector_fiotox.svg`,
     arr:[
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`,},        
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704874596/Our%20Portfolio%20Logos/tap_yugbbj.svg`},
         // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1704956187/Our%20Portfolio%20Logos/baxter_scyf1l.svg`,},  
-
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/ewxu8cypprxm1wbnzrfc.svg`,},        
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/rj8qb9e4ld2xnngm5esy.svg`,},
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/ulvrmtkqguobqoykvp6x.svg`,},        
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921461/Our%20Portfolio%20Logos/March%20SR/hfcrm2ov7fwvhmrusfym.svg`,}, 
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921460/Our%20Portfolio%20Logos/March%20SR/j8f9mo52eyoep2qrxado.svg`,},          
-        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/BEVM_x3amx0.svg`},
+        // { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/BEVM_x3amx0.svg`},
         { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1715926694/Our%20Portfolio%20Logos/May%20SR/Darewise_v34crb.svg`},
-        { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/BTC_terminal_oczerd.svg`},
+        // { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/BTC_terminal_oczerd.svg`},
         { src: `https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/Bitlayer_zx7guf.svg`},
 
         
@@ -284,13 +282,15 @@ const categories:any = [
 },
 {
     id:8,
-    name:`DePIN `,
+    name:`DePIN & RWA`,
     path:`#depin`,
     src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710926728/icons/cufq097pykue27eju1bc.svg`,
     arr:[
         {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921461/Our%20Portfolio%20Logos/March%20SR/qqp8y1qlubunqjbd68yb.svg`,},
-        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/j9yxi3rlb3habfpgihnz.svg`,},        
+        // {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921458/Our%20Portfolio%20Logos/March%20SR/j9yxi3rlb3habfpgihnz.svg`,},        
         { src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/kkh7qwfilsig3a1mlneg.svg`,}, 
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1734951439/Our%20Portfolio%20Logos/Dec%20SR/NodeOps_czcf9w.svg`,},
+        {src:`https://res.cloudinary.com/dezmjeesi/image/upload/v1710921462/Our%20Portfolio%20Logos/March%20SR/dc4sbzyxlsu8z9lffsug.svg`,},
 
       
     ]

@@ -26,28 +26,28 @@
                 <div class="track h-full">
                     <div class="content h-full">
                         <div class="flex flex-row space-x-5 h-full w-max">
-                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/P1227089_ghbzn7.jpg" alt=""></div>
-                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/2_c9ybt4.jpg" alt=""></div>
-                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/P1227199_adkqt9.jpg" alt=""></div>
-                            <div class="h-full md:w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/1_nv1zrj.jpg" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/P1227089_ghbzn7.jpg" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/2_c9ybt4.jpg" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/P1227199_adkqt9.jpg" alt=""></div>
+                            <div class="h-full w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/1_nv1zrj.jpg" alt=""></div>
                             <div class="flex w-full space-y-5 h-full flex-col">
                                 <div class="h-full w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956788/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.44_yxsv9k.jpg" alt=""></div>
                                 <!-- <div class="h-1/2 w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693913827/team/t10_r6xkc4.png" alt=""></div> -->
                             </div>
-                            <div class="flex md:w-full h-full space-y-5 flex-col">
+                            <div class="flex w-full h-full space-y-5 flex-col">
                                 <div class="h-1/2 w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/P1226893_kgkhmf.jpg" alt=""></div>
                                 <div class="h-1/2 w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/P1227132_lht2gy.jpg" alt=""></div>
                             </div>
-                            <div class="flex md:w-full h-full flex-col space-y-5">
-                                <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/4_jdxrkc.jpg" alt=""></div>
+                            <div class="flex w-full h-full flex-col space-y-5">
+                                <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956598/cultureteam/dec24/4_jdxrkc.jpg" alt=""></div>
                                 
                             </div>
-                            <div class="h-full md:w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956597/cultureteam/dec24/P1227259_obtq97.jpg" alt=""></div>
+                            <div class="h-full w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956597/cultureteam/dec24/P1227259_obtq97.jpg" alt=""></div>
                             <div class="h-full w-full"><img class="h-full hidden md:block w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956597/cultureteam/dec24/3_bazesp.jpg" alt=""></div>
-                            <div class="h-full md:w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956597/cultureteam/dec24/WhatsApp_Image_2024-04-19_at_19.30.38_dx9sdn.jpg" alt=""></div>
-                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956787/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.44_1_rdklu5.jpg" alt=""></div>
-                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956789/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.42_lusdmg.jpg" alt=""></div>
-                            <div class="md:w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956788/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.44_5_oegwye.jpg" alt=""></div>
+                            <div class="h-full w-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956597/cultureteam/dec24/WhatsApp_Image_2024-04-19_at_19.30.38_dx9sdn.jpg" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956787/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.44_1_rdklu5.jpg" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956789/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.42_lusdmg.jpg" alt=""></div>
+                            <div class="w-full h-full"><img class="h-full w-full object-cover" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1734956788/cultureteam/dec24/WhatsApp_Image_2023-10-18_at_00.08.44_5_oegwye.jpg" alt=""></div>
                         </div>
                     </div>
                 </div>
