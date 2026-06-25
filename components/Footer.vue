@@ -58,19 +58,19 @@
         <a href="/" class="h-6 md:h-8 pl-6 md:pl-12 justify- md:justify-normal flex pr-6"><img class="h-full" src="https://res.cloudinary.com/dezmjeesi/image/upload/v1693047234/svg%20items/logo_big_ctilkk.svg" alt=""></a>
         <div class="h-[1px] mt-4 w-full rounded-full bg-sky-400 block md:hidden"></div>
         <div class="flex flex-col w-full md:items-start items-center space-y-4 md:space-y-0 justify-start text-base  md:text-left mt-4 pl-6 md:pl-12 pr-6">
-          <div class="md:w-full "><p><span class="text-sky-500">UAE</span> <span class="text-emerald-500">|</span>  Office A, RAK DAO Business Centre, RAK BANK ROC Office, Ground Floor, Al Rifaa, Sheikh Mohammed Bin Zayed Road, Ras Al Khaimah</p></div>
           <div class="md:w-full "><p><span class="text-sky-500">Singapore</span> <span class="text-emerald-500"> |</span>  20A, Tanjong Pagar Road, Singapore (088443)</p></div>
+          <div class="md:w-full "><p><span class="text-sky-500">UAE</span> <span class="text-emerald-500">|</span>  Newtribe Ventures, Office A, RAK DAO Business Centre, RAK BANK ROC Office, Ground Floor, Al Rifaa, Sheikh Mohammed Bin Zayed Road, Ras Al Khaimah</p></div>
         </div>
       </div>
       <div class="flex h-full w-full md:w-1/2 items-center flex-col space-y-4 md:space-y-0 md:flex-row justify-end space-x-4 pr-0 md:pr-16">
         <div class="flex h-full w-full px-6 md:w-full flex-col items- text-base md:items-end">
           <!-- <p>Dubai | Gate Avenue, Zone D - Level 1 Al Mustaqbal St - Dubai - United Arab Emirates</p>
           <p>Singapore  | 20A, Tanjong Pagar Road, Singapore (088443)</p> -->
-          <p class="hidden md:block"> © 2023 Newtribe Capital</p>
+          <p class="hidden md:block"> © 2026 Newtribe Capital</p>
           <p class="hidden md:block">All Rights Reserved.</p>
-          <p class="block md:hidden"> © 2023 Newtribe Capital <br> All Rights Reserved.</p>
-          <a href="https://www.ortigan.com/" target="_blank"><p>Designed and Developed by <span class="font-semibold"> Ortigan</span></p></a>
-          <p>Privacy Policy | Terms & Conditions</p>
+          <p class="block md:hidden"> © 2026 Newtribe Capital <br> All Rights Reserved.</p>
+          <a href="https://yetanothercompany.in/" target="_blank"><p>From folks at <span class="font-semibold"> Yet Another Company</span></p></a>
+          <!-- <p>Privacy Policy | Terms & Conditions</p> -->
         </div>
         <div class="h-32 w-0.5 rounded-full bg-sky-400 hidden md:block"></div>
         <div class="w-16 text-base flex-col text-zinc-500 hidden md:block">
@@ -78,6 +78,7 @@
           <p><a href="/#portfolio" class="hover:text-zinc-400">Portfolio</a></p>
           <p><a href="/#team" class="hover:text-zinc-400">Team</a></p>
           <p><a href="/insights" class="hover:text-zinc-400">Insights</a></p>
+          <p><a href="/privacy-policy" class="hover:text-zinc-400">Privacy Policy</a></p>
         </div>
       </div>
     </div>
